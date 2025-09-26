@@ -12732,16 +12732,16 @@
                 if (qObj.type === 'essay') {
                     questionHtml += `<textarea name="${qObj.id}" placeholder="Nhập câu trả lời của bạn..." aria-label="Câu trả lời tự luận">${userAnswers[qObj.id] || ''}</textarea>`;
                 } else {
-                    questionHtml += `
-                        <div class="options" role="radiogroup">
-                            ${qObj.choices.map((choice, i) => `
-                                <label class="option">
-                                    <input type="radio" name="${qObj.id}" value="${i}" ${userAnswers[qObj.id] === i ? 'checked' : ''}>
-                                    <span>${escapeHtml(choice)}</span>
-                                </label>
-                            `).join('')}
-                        </div>
-                    `;
+questionHtml += `
+    <div class="options" role="radiogroup">
+        ${qObj.choices.map((choice, i) => `
+            <label class="option">
+                <input type="radio" name="q_${qObj.id}" value="${i}" ${userAnswers[qObj.id] === i ? 'checked' : ''}>
+                <span>${escapeHtml(choice)}</span>
+            </label>
+        `).join('')}
+    </div>
+`;
                 }
                 
                 questionHtml += `<div class="explanation" id="explain_${qObj.id}" style="display:none;"></div>`;
@@ -12988,6 +12988,7 @@ function submitTest() {
     </script>
 </body>
 </html>
+
 
 
 
