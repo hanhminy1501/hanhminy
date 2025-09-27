@@ -12704,9 +12704,12 @@
 
                 let questionHtml = `<h4>Câu ${index + 1}: ${escapeHtml(qObj.q)}</h4>`;
                 
-                if (qObj.type === 'essay') {
-                    questionHtml += `<textarea name="${qObj.id}" placeholder="Nhập câu trả lời của bạn..." aria-label="Câu trả lời tự luận">${userAnswers[qObj.id] || ''}</textarea>`;
-                } else {
+if (qObj.type === 'essay') {
+    questionHtml += `
+        <textarea name="${qObj.id}" placeholder="Nhập câu trả lời của bạn..." aria-label="Câu trả lời tự luận">${userAnswers[qObj.id] || ''}</textarea>
+        <button type="button" class="btnShowAnswer" data-qid="${qObj.id}">Hiển thị đáp án</button>
+    `;
+}else {
 questionHtml += `
     <div class="options" role="radiogroup">
         ${qObj.choices.map((choice, i) => `
@@ -12723,10 +12726,16 @@ questionHtml += `
 
                 qDiv.innerHTML = questionHtml;
 
-                if (qObj.type === 'essay') {
-                    qDiv.querySelector('textarea').addEventListener('input', (e) => {
-                        userAnswers[qObj.id] = e.target.value;
-                    });
+if (qObj.type === 'essay') {
+    qDiv.querySelector('textarea').addEventListener('input', (e) => {
+        userAnswers[qObj.id] = e.target.value;
+    });
+    const btn = qDiv.querySelector('.btnShowAnswer');
+    const expEl = qDiv.querySelector('.explanation');
+    btn.addEventListener('click', () => {
+        expEl.innerHTML = `<strong>Đáp án mẫu:</strong><br>${formatText(qObj.answer)}`;
+        expEl.style.display = 'block';
+    });
                 } else {
 qDiv.addEventListener('change', (e) => {
     if (e.target.type === 'radio') {
@@ -12963,6 +12972,7 @@ function submitTest() {
     </script>
 </body>
 </html>
+
 
 
 
