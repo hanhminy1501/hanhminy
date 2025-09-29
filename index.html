@@ -12666,7 +12666,7 @@ qDiv.addEventListener('change', (e) => {
             // Hiện giải thích nếu có
             const explanationEl = document.getElementById(`explain_${qObj.id}`);
             if (qObj.explanation) {
-                explanationEl.textContent = `Giải thích: ${qObj.explanation}`;
+                explanationEl.innerHTML = `<strong>Đáp án đúng:</strong> ${qObj.choices[qObj.answer]}<br>Giải thích: ${qObj.explanation}`;
                 explanationEl.style.display = 'block';
             }
         }
@@ -12880,6 +12880,7 @@ function submitTest() {
     </script>
 </body>
 </html>
+
 
 
 
