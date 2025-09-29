@@ -236,6 +236,8 @@
                     <option value="">Chọn lĩnh vực chuyên môn</option>
                     <option value="ADAIP">AD AIP + AIS-QT</option>
                     <option value="ARO">ARO_Trắc Nghiệm</option>
+					<option value="CR_AIS_092025">CR AIS KV 09.2025</option>
+					<option value="CR_ARO_092025">CR ARO KV 09.2025</option>
                     <option value="ESSAY">ARO Tự Luận</option>
 					<option value="AIS">AIS Tự Luận</option>
                 </select>
@@ -1564,7 +1566,7 @@
   },
   {
     "id": "q116",
-    "q": "METAR stands for _______.",
+    "q": "METAR is_______.",
     "choices": [
       "aerodrome routine meteorological forecast",
       "aerodrome routine meteorological report",
@@ -1575,88 +1577,16 @@
     "explanation": "Annex 3, chapter 1"
   },
   {
-    "id": "q117",
-    "q": "What are the international aviation urgency signals?",
-    "choices": [
-      "SOS",
-      "MAYDAY",
-      "PANPAN",
-      "All of the above"
-    ],
-    "answer": 2,
-    "explanation": "Doc 4444, 15.2.2.2 Chapter 15"
-  },
-  {
-    "id": "q118",
-    "q": "The words “PAN PAN” at the start identifies is ________  message",
-    "choices": [
-      "Abnormal",
-      "a distress",
-      "an urgency",
-      "All of the above"
-    ],
-    "answer": 2,
-    "explanation": "DDoc 9432 - 9.1.3"
-  },
-  {
-    "id": "q119",
-    "q": "An aircraft has been cleared to land and fails to land within five minutes of the estimated time of landing and communication has not been re-established. The aircraft should be considered in________",
-    "choices": [
-      "Uncertainty phase",
-      "Alert phase",
-      "Distress phase",
-      "Emergency phase"
-    ],
-    "answer": 1,
-    "explanation": "Annex 2, 5.2.1 Chapter 5"
-  },
-  {
-    "id": "q120",
-    "q": "is a situation wherein apprehension exists as to the safety of an aircraft and its occupants",
-    "choices": [
-      "Alert Phase",
-      "Distress Phase",
-      "Uncertainty Phase",
-      "Emergency Phase"
-    ],
-    "answer": 0,
-    "explanation": "Annex 12 Chapter 1- Definition"
-  },
-  {
-    "id": "q121",
-    "q": "is a situation wherein uncertainty exists as to the safety of an aircraft and its occupants",
-    "choices": [
-      "Alert Phase",
-      "Distress Phase",
-      "Uncertainty Phase",
-      "Emergency Phase"
-    ],
-    "answer": 2,
-    "explanation": "Annex 12 Chapter 1- Definition"
-  },
-  {
-    "id": "q122",
-    "q": "is a situation wherein there is a reasonable certainty that an aircraft and its occupants are threatened by grave and imminent danger and require immediate assistance",
-    "choices": [
-      "Alert Phase",
-      "Distress Phase",
-      "Uncertainty Phase",
-      "Emergency Phase"
-    ],
-    "answer": 1,
-    "explanation": "Annex 12 Chapter 1- Definition"
-  },
-  {
     "id": "q123",
-    "q": "The words “MAYDAY” or “PAN PAN”, as appropriate, should preferably be ________ at the start of the initial distress or urgency call.",
+    "q": "Heavy (H) aircraft indicates an aircraft type with a maximum certificated take-off mass of ______.",
     "choices": [
-      "spoken 4 times",
-      "spoken 3 times",
-      "spoken 2 times",
-      "spoken only ones"
+      "less than 136 000 kg but more than 7 000 kg",
+      "136 000 kg or more",
+      "7 000 kg or less",
+      "136 000 kg or less"
     ],
     "answer": 1,
-    "explanation": "Doc 9432 -  9.1.3"
+    "explanation": "Doc 4444, 4.9.1.1"
   },
   {
     "id": "q124",
@@ -4868,7 +4798,7 @@
     "choices": [
       "a) Access limited to airline dispatchers with no AIS consultation option",
       "b) Access to operations personnel with guided HMI and the ability to consult AIS via telephone or suitable telecommunications",
-	"c) Access only at AIS offices during published hours",
+	  "c) Access only at AIS offices during published hours",
       "d) Access via e-mail request, with responses issued weekly"
     ],
     "answer": 1,
@@ -10769,6 +10699,502 @@
     "explanation": "ENR 1.10-1\n31 OCT 2024\n(AIP Viet Nam)"
   }
 ],
+'CR_AIS_092025': [
+{
+  "id": "essay-800",
+  "q": "Anh chị hãy cho biết, theo Thông tư 19/2017/TT-BGTVT và thông tư 32/2021/TT-BGTVT sửa đổi, bổ sung một số điều của thông tư số 19/2017/TT-BGTVT cơ sở AIS bao gồm các cơ sở nào và nhân viên AIS bao gồm những nhân viên nào?",
+  "type": "essay",
+  "answer": "Theo Điều 50 Thông tư 19/2017/TT-BGTVT và Thông tư 32/2021/TT-BGTVT sửa đổi, bổ sung một số điều của Thông tư số 19/2017/TT-BGTVT:\n\n*Cơ sở AIS bao gồm:*\n- Phòng NOTAM;\n- Cơ sở AIS sân bay;\n- Phòng AIP.\n\n*Nhân viên AIS bao gồm:*\n- Nhân viên AIS sân bay;\n- Nhân viên NOTAM;\n- Nhân viên AIP;\n- Kíp trưởng NOTAM;\n- Kíp trưởng AIS sân bay;\n- Nhân viên khai thác, bảo dưỡng hệ thống AIS/AIM tự động;\n- Huấn luyện viên AIS."
+},
+{
+  "id": "essay-801",
+  "q": "Anh, chị hãy nêu trách nhiệm của nhân viên trực AIS sân bay?",
+  "type": "essay",
+  "answer": "*Trách nhiệm chung:*\n- Thực hiện các nhiệm vụ theo phân công của kíp trưởng kíp trực; Trưởng/Phó trưởng cơ sở;\n- Khai thác, bảo quản, theo dõi tình trạng hoạt động của hệ thống kỹ thuật, trang bị, thiết bị;\n- Đảm bảo tốt công tác an ninh, an toàn, vệ sinh lao động, phòng chống cháy nổ theo quy định;\n- Phối hợp, hiệp đồng với các cơ quan, đơn vị liên quan;\n- Thực hiện chế độ trực tại vị trí làm việc theo đúng quy định;\n- Thực hiện chế độ báo cáo và lưu trữ tài liệu theo quy định;\n- Chấp hành nội quy, quy định của cơ quan, đơn vị.\n\n*Trách nhiệm của nhân viên AIS sân bay:*\n- Thực hiện nhiệm vụ AIS sân bay: Cam Ranh, Tuy Hòa, Liên Khương, Buôn Ma Thuột;\n- Soạn, cung cấp và cập nhật PIB cho người làm TTB;\n- Nhận, khai thác và xử lý các NOTAM/SNOWTAM do Phòng NOTAM cung cấp;\n- Tiếp nhận, phân loại tin tức có thể ảnh hưởng đến an toàn bay trong phạm vi trách nhiệm; Kiểm tra nội dung nếu tin tức phù hợp phát hành sản phẩm thông báo tin tức hàng không thì chuyển cho Trung tâm CSDLHK để xử lý;\n- Đảm bảo dịch vụ Thông báo tin tức sau chuyến bay bao gồm tiếp nhận và xử lý tin tức ảnh hưởng đến hoạt động bay từ tổ lái hoặc từ các cơ sở ATS;\n- Khai thác các sản phẩm tin tức hàng không khi nhận được.\n\n***Tài liệu viện dẫn:*** Hướng dẫn khai thác cơ sở ARO/AIS Cam Ranh – hiệu lực từ 12/11/2024, Mục 2.6.2"
+},
+{
+  "id": "essay-802",
+  "q": "Anh/chị hãy nêu trách nhiệm và quyền hạn của cơ sở AIS sân bay?",
+  "type": "essay",
+  "answer": "*Trách nhiệm:*\n- Thực hiện nhiệm vụ AIS sân bay: Cam Ranh, Tuy Hòa, Liên Khương, Buôn Ma Thuột;\n- Soạn, cung cấp và cập nhật PIB cho người làm TTB;\n- Nhận, khai thác và xử lý các NOTAM/SNOWTAM do Phòng NOTAM cung cấp;\n- Tiếp nhận, phân loại tin tức có thể ảnh hưởng đến an toàn bay trong phạm vi trách nhiệm; Kiểm tra nội dung nếu tin tức phù hợp phát hành sản phẩm thông báo tin tức hàng không thì chuyển cho Trung tâm CSDLHK để xử lý;\n- Đảm bảo dịch vụ Thông báo tin tức sau chuyến bay bao gồm tiếp nhận và xử lý tin tức ảnh hưởng đến hoạt động bay từ tổ lái hoặc từ các cơ sở ATS;\n- Khai thác các sản phẩm tin tức hàng không khi nhận được;\n- Thực hiện chế độ trực tại vị trí làm việc theo đúng quy định;\n- Thực hiện chế độ báo cáo và lưu trữ tài liệu theo quy định;\n- Thực hiện các nhiệm vụ khác khi được cấp trên giao.\n\n*Quyền hạn:*\n- Được phép chủ động liên lạc với các tổ chức, đơn vị trong và ngoài đơn vị để thực hiện nhiệm vụ được giao theo quy định;\n- Được phép yêu cầu các cơ quan, đơn vị trong và ngoài ngành hàng không cung cấp các tin tức hàng không liên quan trong phạm vi trách nhiệm theo quy định;\n- Được phép yêu cầu trực đảm bảo kỹ thuật kiểm tra, sửa chữa các phương tiện, trang bị, thiết bị của cơ sở khi có sự cố;\n- Được tham gia xây dựng kế hoạch hoạt động hàng năm, kế hoạch lao động, đề xuất bố trí, sử dụng lao động, kế hoạch đào tạo - huấn luyện.\n\n***Tài liệu viện dẫn:*** Hướng dẫn khai thác cơ sở ARO/AIS Cam Ranh – hiệu lực từ 12/11/2024, Mục 2.3"
+},
+{
+  "id": "essay-803",
+  "q": "Anh/chị hãy trình bày các quy định đối với giao ca, nhận ca và duy trì ca trực tại cơ sở của anh/chị đang công tác?",
+  "type": "essay",
+  "answer": "*Các quy định chung:*\n- Nhận ca trong tình trạng sức khỏe tốt;\n- Có mặt trước giờ nhận ca ít nhất 10 phút và lưu lại sau khi giao ca 05 phút;\n- Có mặt và tác nghiệp tại vị trí trực liên tục trong thời gian thực hiện ca trực;\n- Không được giao nhận ca gián tiếp qua điện thoại hoặc các hình thức gián tiếp khác;\n- Không được sử dụng đồ uống gây kích thích hoặc gây say như rượu, bia hoặc chất có cồn; gây buồn ngủ trước và trong ca trực;\n- Ghi chép chính xác và đầy đủ các nội dung quy định liên quan vào Sổ Nhật ký giao ca trực.\n\n*Giao ca, nhận ca:*\n- Các thông tin giao, nhận ca trực bao gồm:\n  + Tình hình hoạt động bay trong ngày;\n  + Các điện văn không lưu, sản phẩm tin tức hàng không, SNOWTAM cần theo dõi và các lưu ý khác (nếu có);\n  + Các tin tức liên quan đến chuyến bay chuyên cơ/chuyên khoang;\n  + Công tác phối hợp, hiệp đồng;\n  + Các công việc cần xử lý tiếp (nếu có);\n  + Tình trạng hoạt động của các hệ thống, thiết bị (AMHS, AIS tự động, AIM và NOTAM bán tự động);\n  + Các thông báo, văn bản, chỉ thị, quy định mới nhận được;\n- Việc bàn giao ca chỉ hoàn tất khi kíp trưởng nhận ca ký nhận vào Sổ nhật ký giao ca trực theo Biểu mẫu;\n- Trong trường hợp tình hình hoạt động bay có sự vụ sự cố bất thường xảy ra liên quan đến quy trình cung cấp dịch vụ ARO/AIS trong phạm vi trách nhiệm, kíp trực đương nhiệm phải tiếp tục xử lý cho đến khi mọi hoạt động trở lại bình thường mới tiến hành bàn giao ca (nếu kíp trưởng nhận ca yêu cầu).\n\n*Duy trì ca trực:*\n- Tất cả các thành viên trực trong ca phải luôn bám sát vị trí trực, thực hiện nghiêm quy trình tác nghiệp, nội quy lao động của đơn vị;\n- Kíp trưởng kíp trực phải nắm bắt các tin tức có liên quan thông qua quá trình giám sát kíp trực hoặc kíp viên báo cáo, kịp thời xử lý các tình huống trong ca trực đảm bảo an toàn cho hoạt động bay;\n- Nắm bắt tin tức chính xác, kịp thời xử lý các tình huống trong ca trực đảm bảo an toàn cho hoạt động bay;\n- Thường xuyên theo dõi điện văn FPL và các điện văn không lưu khác, điện văn NOTAM/SNOWTAM và các điện văn liên quan;\n- Phối hợp chặt chẽ với các đầu mối liên quan để bảo đảm cung cấp dịch vụ được đầy đủ, không bị gián đoạn;\n- Thường xuyên kiểm tra, theo dõi tình trạng hoạt động của hệ thống kỹ thuật, trang bị, thiết bị liên quan; báo cáo kịp thời các sự cố kỹ thuật, các tình huống bất thường, phối hợp hiệp đồng với các đơn vị, đầu mối liên quan không để xảy ra mất an toàn bay theo chức trách nhiệm vụ;\n- Báo cáo kịp thời với Trưởng cơ sở/Phó Trưởng cơ sở (trực giám sát) khi có phát sinh bất thường về chuyên môn hoặc có nhân viên bị đau ốm đột xuất trong ca trực để có biện pháp giải quyết phù hợp.\n\n***Tài liệu viện dẫn:*** Hướng dẫn khai thác cơ sở ARO/AIS Cam Ranh – hiệu lực từ 12/11/2024, Mục 2.8"
+},
+{
+  "id": "essay-804",
+  "q": "Anh/chị hãy nêu danh mục các văn bản, tài liệu của Việt Nam & ICAO đối với cơ sở AIS sân bay cần lưu trữ?",
+  "type": "essay",
+  "answer": "*Các văn bản, tài liệu của Việt Nam:*\n- Luật Hàng không dân dụng Việt Nam;\n- Nghị định quy định chi tiết về quản lý hoạt động bay;\n- Nghị định về quản lý, khai thác cảng hàng không, sân bay;\n- Nghị định về công tác bảo đảm chuyến bay chuyên cơ, chuyên khoang;\n- Nghị định quy định về xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng.\n\n*Các Quy chế, Thông tư đảm bảo hoạt động bay:*\n- Thông tư quy định về quản lý và đảm bảo hoạt động bay;\n- Thông tư quy định chi tiết về công tác đảm bảo chuyến bay chuyên cơ;\n- Thông tư hướng dẫn thực hiện chế độ thời giờ làm việc, thời giờ nghỉ ngơi đối với người lao động làm các công việc có tính chất đặc thù trong ngành hàng không;\n- Thông tư quy định về nhân viên hàng không; cơ sở đào tạo, huấn luyện nghiệp vụ nhân viên hàng không và cơ sở đánh giá trình độ tiếng Anh nhân viên hàng không;\n- Thông tư hướng dẫn thực hiện chế độ kỷ luật lao động đặc thù đối với nhân viên hàng không;\n- Các văn bản quy định khác của Cục Hàng không Việt Nam về TBTTHK;\n- Quy chế bay trong khu vực các sân bay liên quan tại Việt Nam;\n- Các Văn bản hiệp đồng bảo đảm dịch vụ giữa cơ sở AIS và các cơ quan đơn vị liên quan;\n- Các Văn bản phối hợp bảo đảm dịch vụ làm thủ tục bay từ xa;\n- Tài liệu HDKT cơ sở của cơ sở;\n- Tập AIP Việt Nam, bản đồ/sơ đồ bay và các tài liệu khác;\n- Các quy định, hướng dẫn về AIS/AIM của doanh nghiệp, đơn vị về TBTTHK.\n\n*Các tài liệu của ICAO:*\n- Các Phụ ước: 2, 3, 4, 5, 9, 10 tập 2, 11, 12, 14, 15, 19;\n- Các tài liệu về các phương thức Không vận ICAO: Doc 4444, Doc 7030, Doc 8400;\n- Các tài liệu về phương tiện và dịch vụ: Doc 7383;\n- Các tài liệu về chỉ danh và chỉ địa danh: Doc 7910, Doc 8585, Doc 8643;\n- Các tài liệu về hướng dẫn khai thác: Doc 8126, Doc 8697;\n- Doc 10066: Quản lý tin tức hàng không.\n\n***Tài liệu viện dẫn:*** Quyết định 272/QĐ-CHK ngày 13/02/2018 – Phụ lục, mục IV"
+},
+{
+  "id": "essay-805",
+  "q": "Anh/chị hãy cho biết các số liệu và đặc tính của đường CHC và cự ly công bố tại sân bay anh/chị đang công tác?",
+  "type": "essay",
+  "answer": "*Số liệu của đường CHC sân bay Cam Ranh (AIP Việt Nam VVCR AD 2.12 và 2.13)*\n\n**Đường CHC 02L**\n- Hướng thực: 019°\n- Kích thước: 3051 x 45 m\n- Sức chịu tải (PCN): 510/R/B/X/U (Bê tông xi măng)\n- Tọa độ ngưỡng: 119506.25N - 1091253.28E\n- Cao độ ngưỡng: THR 6.0 m\n- Độ dốc: +0.25%\n- Kích thước đoạn dừng: 60 x 45 m\n- Khoảng trống: 200 x 150 m\n- Dải bảo hiểm: 3291 x 300 m\n- Khu vực an toàn cuối đường CHC: 90 x 90 m\n- EMAS: Không\n- Cự ly công bố: Cất cánh 3051 m, Có thể cất cánh 3251 m, Dừng khẩn cấp 3111 m, Hạ cánh 3051 m\n\n**Đường CHC 20R**\n- Hướng thực: 199°\n- Kích thước: 3051 x 45 m\n- PCN: 510/R/B/X/U (Bê tông xi măng)\n- Tọa độ ngưỡng: 120040.24N - 1091253.86E\n- Cao độ ngưỡng: THR 14.1 m\n- Độ dốc: +0.25%\n- Kích thước đoạn dừng: 60 x 45 m\n- Khoảng trống: 200 x 150 m\n- Dải bảo hiểm: 3291 x 300 m\n- Khu vực an toàn cuối đường CHC: 90 x 90 m\n- EMAS: Không\n- Cự ly công bố: Cất cánh 3051 m, Có thể cất cánh 3251 m, Dừng khẩn cấp 3111 m, Hạ cánh 3051 m\n\n**Đường CHC 02R**\n- Hướng thực: 019°\n- Kích thước: 3048 x 45 m\n- PCN: 650/R/A/W/U (Bê tông xi măng)\n- Tọa độ ngưỡng: 115853.85N - 1091259.63E\n- Cao độ ngưỡng: THR 4.6 m\n- Độ dốc: 0.285%\n- Kích thước đoạn dừng: 100 x 60 m\n- Khoảng trống: 300 x 150 m\n- Dải bảo hiểm: 3368 x 300 m\n- Khu vực an toàn cuối đường CHC: 130 x 90 m\n- EMAS: Không\n- Cự ly công bố: Cất cánh 3048 m, Có thể cất cánh 3248 m, Dừng khẩn cấp 3108 m, Hạ cánh 3048 m\n\n**Đường CHC 20L**\n- Hướng thực: 199°\n- Kích thước: 3048 x 45 m\n- PCN: 650/R/A/W/U (Bê tông xi măng)\n- Tọa độ ngưỡng: 120027.73N - 1091332.16E\n- Cao độ ngưỡng: THR 10.6 m\n- Độ dốc: 0.285%\n- Kích thước đoạn dừng: 100 x 60 m\n- Khoảng trống: 300 x 150 m\n- Dải bảo hiểm: 3368 x 300 m\n- Khu vực an toàn cuối đường CHC: 130 x 90 m\n- EMAS: Không\n- Cự ly công bố: Cất cánh 3048 m, Có thể cất cánh 3248 m, Dừng khẩn cấp 3108 m, Hạ cánh 3048 m"
+},
+{
+  "id": "essay-806",
+  "q": "Anh/chị hãy cho biết các thông số cơ bản (loại đài, tên gọi, tần số) của các đài phụ trợ vô tuyến dẫn đường và hạ cánh tại sân bay anh/chị đang công tác?",
+  "type": "essay",
+  "answer": "*Theo AIP VN VVCR AD 2.19*\n\n**DVOR/DME**\n- Tên gọi: CRA\n- Tần số: 116.500 MHz (CH112X)\n- Giờ hoạt động: H24\n- Tầm phủ: 320 KM\n\n**NDB**\n- Tên gọi: CR\n- Tần số: 414 KHz\n- Giờ hoạt động: H24\n- Tầm phủ: 95 KM\n- Ghi chú: Cách tim đường CHC 375 M về phía Tây sân bay, cách ngưỡng đường CHC 02L là 1 635 M và ngưỡng đường CHC 20R là 1 413 M\n\n**ILS/GP-DME (Đường CHC 02L)**\n- Tên gọi: ICR\n- Tần số: 330.200 MHz (CH44X)\n- Giờ hoạt động: H24\n- Tầm phủ: 10 NM\n- Ghi chú: Cách tim đường CHC 02L là 105 M, cách ngưỡng đường CHC 02L là 270 M\n\n**ILS/LOC (Đường CHC 02L)**\n- Tên gọi: ICR\n- Tần số: 110.700 MHz\n- Giờ hoạt động: H24\n- Tầm phủ: 25 NM\n- Ghi chú: Cách ngưỡng đường CHC 02R là 291 M\n\n**ILS/GP-DME (Đường CHC 20R)**\n- Tên gọi: ICA\n- Tần số: 335.000 MHz (CH40X)\n- Giờ hoạt động: H24\n- Tầm phủ: 10 NM\n\n**ILS/LOC (Đường CHC 20R)**\n- Tên gọi: ICA\n- Tần số: 110.300 MHz\n- Giờ hoạt động: H24\n- Tầm phủ: 25 NM\n\n**ILS/GP-DME (Đường CHC 20L)**\n- Tên gọi: ICX\n- Tần số: 331.100 MHz (CH56X)\n- Giờ hoạt động: H24\n- Tầm phủ: 10 NM\n\n**ILS/LOC (Đường CHC 20L)**\n- Tên gọi: ICX\n- Tần số: 111.900 MHz\n- Giờ hoạt động: H24\n- Tầm phủ: 25 NM"
+},
+{
+  "id": "essay-807",
+  "q": "Anh/chị hãy cho biết hạn chế khai thác tại Cảng hàng không, sân bay khi có hoạt động của chuyến bay chuyên cơ, chuyên khoang?",
+  "type": "essay",
+  "answer": "Theo Thông tư 25/2022/TT-BGTVT - Điều 28 Quy định chi tiết về công tác bảo đảm chuyến bay chuyên cơ, chuyên khoang:\n\n*Đối với chuyến bay đến:*\n- 05 phút trước khi tàu bay hạ cánh, dành riêng đường cất hạ cánh đã được xác định để phục vụ chuyên cơ, chuyên khoang; sau khi tàu bay đã hạ cánh và thoát ly khỏi đường cất hạ cánh thì đường cất hạ cánh trở lại hoạt động bình thường.\n- 30 phút trước khi tàu bay hạ cánh, dành riêng vị trí đỗ tàu bay phục vụ chuyên cơ, chuyên khoang đã được xác định theo kế hoạch.\n\n*Đối với chuyến bay đi:*\n- Vị trí đỗ của tàu bay chuyên cơ được bảo vệ và cách ly từ thời điểm tàu bay chuyên cơ, chuyên khoang vào vị trí để thực hiện các công việc chuẩn bị cho chuyến bay.\n- 05 phút trước khi tàu bay chuyên cơ, chuyên khoang vào đường cất hạ cánh, cơ sở điều hành bay dành riêng đường cất hạ cánh cho chuyến bay chuyên cơ, chuyên khoang. Sau khi tàu bay chuyên cơ, chuyên khoang cất cánh, đường cất hạ cánh được phép trở lại hoạt động bình thường. Đối với sân bay có nhiều đường cất hạ cánh thì đường không phục vụ chuyên cơ vẫn hoạt động bình thường theo quy định về khai thác đường CHC song song.\n- Khi tàu bay chuyên cơ, chuyên khoang lăn trên đường lăn, vệt lăn trên sân đỗ, người, phương tiện và tàu bay khác phải bảo đảm khoảng cách an toàn 500m phía trước và phía sau.\n\n*Trách nhiệm của người khai thác cảng hàng không:*\n- Tổ chức thông báo kịp thời bằng bộ đàm hoặc điện thoại để người, phương tiện đang hoạt động tại khu vực liên quan biết và tuân thủ việc hạn chế khai thác.\n- Khi có thông báo hạn chế khai thác, người và phương tiện không phục vụ chuyên cơ phải tuân thủ các quy định hạn chế khai thác tại Tài liệu khai thác sân bay.\n\n*Lưu ý:* Các quy định trên không áp dụng trong trường hợp khẩn nguy sân bay."
+},
+{
+  "id": "essay-808",
+  "q": "Anh/chị hãy nêu trách nhiệm của Trung tâm ARO/AIS Cam Ranh trong việc cung cấp dịch vụ Thông báo tin tức Hàng không được nêu trong Văn bản hiệp đồng Bảo đảm dịch vụ giữa Công ty Quản lý bay miền Trung và TT TBTTHK.",
+  "type": "essay",
+  "answer": "*Đối với công tác phối hợp, bảo đảm cung cấp bản Thông báo tin tức trước chuyến bay (PIB):*\n- Phối hợp với nhân viên ATS – Công ty QLBMT để thông báo cho tổ lái những NOTAM/SNOWTAM mới, thông tin đột xuất quan trọng liên quan đến chuyến bay trong trường hợp tổ lái đã nhận PIB.\n- Đối với các chuyến bay chưa áp dụng Quy trình làm thủ tục bay từ xa tại sân bay Tuy Hòa:\n  + Nhân viên AIS sân bay Cam Ranh soạn, gửi PIB qua e-mail cho nhân viên Đài KSKL Tuy Hòa để in và chuyển trực tiếp cho người nộp FPL.\n  + Khi cần cập nhật PIB trực tiếp: Nhân viên AIS Cam Ranh gửi điện văn NOTAM/SNOWTAM liên quan qua e-mail và điện thoại cho nhân viên Đài KSKL Tuy Hòa để chuyển trực tiếp cho tổ lái. Nếu tổ lái đã rời phòng thủ tục bay, AIS Cam Ranh chuyển thông tin cho KSVKL của Đài KSKL Tuy Hòa để chuyển cho tổ lái.\n  + Nhân viên AIS Cam Ranh có trách nhiệm giải thích thông tin liên quan đến PIB đã cung cấp qua điện thoại khi được yêu cầu (Đài KSKL sẽ hỗ trợ tổ lái liên lạc trực tiếp với AIS Cam Ranh).\n  + Soạn bản ký giao nhận PIB và gửi email cho Đài KSKL Tuy Hòa.\n\n*Đối với công tác phối hợp, tiếp nhận Bản báo cáo sau chuyến bay:*\n- AIS Cam Ranh nhận thông tin và phối hợp với Đài KSKL Tuy Hòa để xử lý theo quy định trong trường hợp tổ lái có tin tức muốn báo cáo sau chuyến bay qua liên lạc thoại.\n\n***Tài liệu viện dẫn:*** Văn bản hiệp đồng bảo đảm dịch vụ giữa Công ty QLB miền Trung và Trung tâm TBTTHK, hiệu lực từ 29/4/2025 – Mục 2.1.2."
+},
+{
+  "id": "essay-809",
+  "q": "Anh/chị hãy cho biết các trường hợp bất thường trong quá trình cung cấp dịch vụ và nêu các bước xử lý các trường hợp bất thường?",
+  "type": "essay",
+  "answer": "*Các trường hợp bất thường:*\n- Trường hợp 1: Sự cố hỏng, mất đường truyền hoặc lỗi một trong các hệ thống trang thiết bị AIS/AFTN/AMHS/NOTAM bán tự động hoặc các trang thiết bị khác (máy văn phòng, fax, điện thoại, internet...) (chỉ gián đoạn ngắn, có thể khắc phục/giải trợ ngay).\n- Trường hợp 2: Sự cố hỏng, mất đường truyền hoặc lỗi hệ thống AIS/AFTN/AMHS hoặc NOTAM bán tự động (gián đoạn dài). Sự cố cháy, nổ hệ thống thiết bị kỹ thuật; cháy nổ vị trí làm việc; sự cố thiên tai (mất nhiều thời gian khắc phục).\n\n*Các bước xử lý trong trường hợp bất thường:*\n- **Đối với Trường hợp 1:**\n  + Bước 1: Kíp trưởng/Nhân viên trực kiểm tra cụ thể tình trạng thiết bị, báo cáo cán bộ trực giám sát và thông báo cho Phòng Bảo đảm kỹ thuật xử lý.\n  + Bước 2: Chuyển sang khai thác trang thiết bị dự phòng; nếu không dùng được thì yêu cầu đơn vị khác giải trợ.\n  + Bước 3: Ghi chép đầy đủ vào Sổ nhật ký giao ca trực.\n  + Ghi chú: Thực hiện báo cáo bằng văn bản khi có yêu cầu. Đính kèm FPL, NOTAM, điện văn sự vụ hoặc các sản phẩm đã cung cấp.\n\n  *Lưu ý – Thứ tự ưu tiên trang thiết bị dự phòng:*\n  1. Khi hệ thống AIM gặp sự cố: dùng hệ thống AIS để xử lý FPL, điện văn ATS, tạo PIB và khai thác NOTAM.\n  2. Khi AIM và AIS cùng sự cố: dùng hệ thống NOTAM bán tự động để tạo PIB; dùng hệ thống AMHS để xử lý FPL, điện văn ATS.\n\n- **Đối với Trường hợp 2:**\n  + Bước 1: Kíp trưởng/Nhân viên trực báo cáo Trưởng cơ sở và phối hợp với các cơ quan liên quan (Cảng HKQT Cam Ranh, Công ty QLB miền Trung, Phòng Bảo đảm kỹ thuật - TBTTHK…) để khắc phục kịp thời (dập lửa, di chuyển thiết bị, tài liệu...).\n  + Bước 2: Thông báo ngay cho các cá nhân, đơn vị liên quan về tình trạng gián đoạn và áp dụng phương án giải trợ.\n  + Bước 3: Thông báo ngay khi kết thúc sự cố để khôi phục dịch vụ bình thường.\n  + Bước 4: Ghi chép đầy đủ vào Sổ nhật ký giao ca trực.\n  + Ghi chú: Thực hiện báo cáo bằng văn bản khi có yêu cầu. Đính kèm FPL, NOTAM/SNOWTAM, điện văn sự vụ hoặc các sản phẩm đã cung cấp.\n\n***Tài liệu viện dẫn:*** HDKT cơ sở ARO/AIS Cam Ranh, hiệu lực từ 12/11/2024 – Mục 4.5."
+},
+{
+  "id": "essay-810",
+  "q": "Anh/chị hãy cho biết cơ sở AIS nơi anh/chị đang công tác đã ký VBHĐ/phối hợp với các đơn vị nào tính đến thời điểm hiện tại, hãy kể tên?",
+  "type": "essay",
+  "answer": "- VBHĐ bảo đảm dịch vụ Thông báo tin tức hàng không giữa TCTQLBVN và Tổng công ty Cảng HKVN - CTCP;\n- VBHĐ bảo đảm dịch vụ tại Cảng HKQT Cam Ranh giữa Trung tâm TBTTHK - TCTQLBVN và Cảng HKQT Cam Ranh - Tổng công ty Cảng HKVN - CTCP;\n- VBHĐ bảo đảm dịch vụ giữa Trung tâm TBTTHK và Trung tâm Quản lý luồng không lưu;\n- VBHĐ bảo đảm dịch vụ giữa Công ty Quản lý bay miền Nam và Trung tâm TBTTHK;\n- VBHĐ bảo đảm dịch vụ giữa Công ty Quản lý bay miền Trung và Trung tâm TBTTHK;\n- VBHĐ bảo đảm dịch vụ giữa Trung tâm KTHK và Trung tâm TBTTHK;\n- VBPH bảo đảm việc gửi và nhận kế hoạch bay không lưu giữa Lữ đoàn không quân 918 và Tổng công ty Quản lý bay Việt Nam;\n- Văn bản phối hợp bảo đảm dịch vụ làm thủ tục bay từ xa cho các chuyến bay khởi hành từ các cảng hàng không, sân bay giữa Trung tâm TBTTHK - TCTQLBVN và Trung tâm điều hành khai thác - TCT Hàng không Việt Nam;\n- Văn bản phối hợp bảo đảm dịch vụ làm thủ tục bay từ xa cho các chuyến bay khởi hành từ sân bay quốc tế Cam Ranh giữa Trung tâm TBTTHK - TCTQLBVN với các hãng hàng không liên quan (Vietjet Air, Pacific Airlines, Bamboo Airways);\n- Văn bản phối hợp bảo đảm dịch vụ làm thủ tục bay từ xa cho các chuyến bay khởi hành từ các cảng hàng không, sân bay và bãi cất, hạ cánh giữa Trung tâm TBTTHK - TCTQLBVN và hãng hàng không Hải Âu;\n- VBPH bảo đảm dịch vụ làm thủ tục bay từ xa cho các chuyến bay khởi hành từ các cảng hàng không giữa Trung tâm TBTTHK và Công ty cổ phần hàng không Bầu trời xanh;\n- VBPH bảo đảm dịch vụ làm thủ tục bay từ xa cho các chuyến bay khởi hành từ các cảng hàng không, sân bay giữa Trung tâm TBTTHK và Công ty Trực thăng miền Bắc;\n- VBPH bảo đảm dịch vụ làm thủ tục bay cho các chuyến bay khởi hành từ các cảng hàng không quốc tế Tân Sơn Nhất, Đà Nẵng và Cam Ranh giữa Trung tâm TBTTHK - TCTQLBVN và Công ty Cổ phần Phục vụ mặt đất Sài Gòn (SAGS);\n- VBPH bảo đảm dịch vụ giữa Trung tâm TBTTHK và Công ty CPHK Hành tinh xanh – GPA;\n- VBPH bảo đảm dịch vụ làm thủ tục bay từ xa cho các chuyến bay khởi hành từ các Cảng HK, sân bay quân sự, bãi cất/hạ cánh, sân bay chuyên dùng giữa Trung tâm TBTTHK và Công ty Trực thăng miền Nam;\n- Các văn bản thỏa thuận khác có liên quan đến ARO/AIS.\n\n***Tài liệu viện dẫn:*** HDKT cơ sở ARO/AIS Cam Ranh, hiệu lực từ 12/11/2024 – Phụ lục 7"
+},
+{
+  "id": "essay-811",
+  "q": "Anh/chị hãy nêu thời hạn và cách thức cung cấp tin tức phù hợp phát hành NOTAM.",
+  "type": "essay",
+  "answer": "Cơ quan, đơn vị có tin tức phù hợp phát hành NOTAM dự thảo NOTAM theo mẫu của các hệ thống AIS tự động, NOTAM bán tự động và gửi tới cơ sở AIS phù hợp kèm theo văn bản liên quan đến nội dung phát hành NOTAM theo thời hạn và cách thức sau:\n1. Ít nhất là 10 ngày trước ngày bắt đầu có hiệu lực đối với tin tức liên quan đến hoạt động của các khu vực cấm bay, nguy hiểm hoặc hạn chế bay và của hoạt động yêu cầu hạn chế tạm thời vùng trời ngoài các hoạt động khẩn nguy.\n2. Ít nhất là 03 ngày trước ngày bắt đầu có hiệu lực đối với tin tức liên quan đến công việc sẽ được tiến hành tại khu bay.\n3. Ít nhất là 24 giờ trước giờ tin tức bắt đầu có hiệu lực trong những trường hợp cần giải quyết gấp.\n4. Tin tức được gửi ngay trong các trường hợp khẩn cấp.\n\n***Tài liệu viện dẫn:*** Thông tư 19/2017/TT-BGTVT và Thông tư 32/2021/TT-BGTVT sửa đổi, bổ sung một số điều của Thông tư số 19/2017/TT-BGTVT – Điều 63"
+},
+{
+  "id": "essay-812",
+  "q": "Anh/chị hãy nêu mục đích và quy trình xử lý bản tin tức sau chuyến bay?",
+  "type": "essay",
+  "answer": "*Mục đích:*\nMục đích của việc thu thập tin tức sau chuyến bay là để khẳng định việc không đầy đủ các phương tiện, trang thiết bị có ảnh hưởng quan trọng đối với sự an toàn của hoạt động bay. Việc xuất hiện động vật hoang dã trên sân bay hoặc quanh khu vực sân bay có tiềm ẩn nguy cơ mất an toàn nghiêm trọng cho hoạt động bay do tổ lái quan sát được trong quá trình bay và thông báo ngay cho cơ quan liên quan.\n\n*Quy trình xử lý thông tin sau chuyến bay:*\n- Khi nhận được thông báo sau chuyến bay của tổ lái hoặc người khai thác bằng văn bản hoặc điện thoại về các tin tức chưa được phổ biến bằng NOTAM, các tập bổ sung AIP, AIC hoặc tập AIP mà những tin tức này có thể ảnh hưởng đến hoạt động bay thì cơ sở AIS sân bay phải thông báo ngay cho Cục Hàng không Việt Nam và các cơ quan, đơn vị liên quan để kiểm tra, xử lý.\n- Trường hợp thông báo sau chuyến bay của tổ lái hay người khai thác tàu bay được xác nhận là chính xác thì cơ sở AIS sân bay phải:\n  a) Thông báo ngay cho các cơ sở cung cấp dịch vụ không lưu có liên quan để cảnh báo hoặc cảnh báo trực tiếp cho các tổ lái khác;\n  b) Thông báo cho cơ sở có liên quan đến tin tức nói trên.\n- Trường hợp thông báo sau chuyến bay của tổ lái hay người khai thác tàu bay được xác nhận là không chính xác thì cơ sở AIS sân bay phải thông báo lại việc này cho tổ lái hoặc đại diện người khai thác tàu bay đã thực hiện thông báo sau chuyến bay.\n\n***Tài liệu viện dẫn:*** Doc 8126, 7th edition 2022 - Chương 11; Thông tư 19/2017/TT-BGTVT và Thông tư 32/2021/TT-BGTVT sửa đổi, bổ sung một số điều của Thông tư số 19/2017/TT-BGTVT - Điều 80"
+},
+{
+  "id": "essay-813",
+  "q": "Anh/chị hãy nêu các sản phẩm tin tức hàng không, trình bày vắn tắt định nghĩa về các sản phẩm tin tức hàng không đó.",
+  "type": "essay",
+  "answer": "- *Sản phẩm tin tức hàng không (Aeronautical Information Products):* Dữ liệu hàng không và tin tức hàng không được cung cấp dưới dạng bộ dữ liệu số hoặc dưới dạng bản giấy hoặc bản điện tử được tiêu chuẩn hóa. Sản phẩm tin tức hàng không bao gồm:\n  + Tập Thông báo tin tức hàng không (AIP), bao gồm các Tập tu chỉnh và các Tập bổ sung AIP;\n  + Thông tri hàng không (AIC);\n  + Sơ đồ hàng không;\n  + NOTAM;\n  + Bộ dữ liệu số.\n\n- *Định nghĩa:*\n  - **Tập thông báo tin tức hàng không (Aeronautical Information Publication - AIP):** Ấn phẩm được công bố bởi nhà chức trách hàng không hoặc tổ chức được nhà chức trách hàng không ủy quyền công bố, bao gồm những tin tức ổn định lâu dài, cần thiết cho hoạt động bay.\n  - **Tập tu chỉnh AIP (AIP Amendment):** Tài liệu bao gồm những thay đổi mang tính chất lâu dài đối với những tin tức trong AIP.\n  - **Tập bổ sung AIP (AIP Supplement):** Tài liệu bao gồm những thay đổi mang tính chất tạm thời đối với những tin tức trong AIP và được phát hành bằng những trang đặc biệt.\n  - **Thông tri hàng không (Aeronautical Information Circular - AIC):** Bản thông báo bao gồm những tin tức liên quan đến an toàn bay, dẫn đường, kỹ thuật, hành chính hoặc pháp luật của Việt Nam mà những tin tức đó không phù hợp phổ biến bằng NOTAM hoặc AIP.\n  - **Sơ đồ hàng không (Aeronautical Chart):** Là sự tái hiện một phần địa cầu, các yếu tố địa hình, địa vật, được đặt tên một cách cụ thể đáp ứng các yêu cầu của dẫn đường hàng không.\n  - **NOTAM:** Thông báo được phát hành bằng phương tiện viễn thông liên quan đến việc thiết lập, tình trạng hoặc sự thay đổi của phương tiện dẫn đường, dịch vụ, phương thức hoặc sự nguy hiểm mang tính quan trọng mà tổ lái và những người có liên quan đến hoạt động bay cần phải nhận biết kịp thời để xử lý.\n  - **Bộ dữ liệu số:** Bao gồm các bộ dữ liệu sau:\n    a) Bộ dữ liệu AIP;\n    b) Bộ dữ liệu địa hình;\n    c) Bộ dữ liệu chướng ngại vật;\n    d) Bộ dữ liệu lập bản đồ sân bay;\n    đ) Bộ dữ liệu phương thức bay bằng thiết bị.\n\n***Tài liệu viện dẫn:*** Tài liệu hướng dẫn về tiêu chuẩn - Dịch vụ thông báo tin tức hàng không – Phần định nghĩa"
+},
+{
+  "id": "essay-814",
+  "q": "Anh/chị hãy trình bày nguồn thu thập tin tức hàng không?",
+  "type": "essay",
+  "answer": "Tin tức hàng không được thu thập từ các nguồn sau:\n1. Cơ sở AIS của Hàng không dân dụng các quốc gia có thỏa thuận trao đổi các ấn phẩm AIS với Hàng không dân dụng Việt Nam.\n2. Báo cáo sau chuyến bay của tổ lái.\n3. Các cơ quan, tổ chức Việt Nam bao gồm:\n   a) Doanh nghiệp cảng hàng không;\n   b) Cơ sở ATS;\n   c) Cơ sở CNS;\n   d) Cơ sở MET;\n   đ) Cơ sở SAR;\n   e) Cảng vụ hàng không;\n   g) Cơ quan, đơn vị của Bộ Quốc phòng;\n   h) Các cơ quan, doanh nghiệp, tổ chức khác có liên quan.\n\n***Tài liệu viện dẫn:*** Thông tư 19/2017/TT-BGTVT và Thông tư 32/2021/TT-BGTVT sửa đổi, bổ sung một số điều của Thông tư số 19/2017/TT-BGTVT - Điều 54"
+},
+{
+  "id": "essay-815",
+  "q": "Anh/chị hãy nêu nguyên tắc cơ bản soạn thảo PIB trên ứng dụng ATS?",
+  "type": "essay",
+  "answer": "- Người khai thác có thể soạn thảo các loại PIB trên ATS bằng các cách sau:\n  + Chọn FPL của chuyến bay cần soạn, ấn chuột phải, chọn Create PIB để soạn;\n  + Kích đúp chuột vào FPL chuẩn của chuyến bay cần soạn, chọn PIB trên thanh công cụ để soạn;\n  + Truy PIB cũ đã soạn và dùng các lệnh trên thanh công cụ trong cửa sổ truy xuất để soạn theo quy định;\n  + Nhấp chuột vào Briefing ở thanh công cụ ngang trên màn hình chính, chọn New PIB… để mở cửa sổ, tự điền thông số của chuyến bay theo quy định để soạn.\n\n- Các thông số người khai thác tự nhập hoặc được hệ thống tự động điền sau khi nhập kế hoạch bay và được người soạn thảo chọn thêm theo yêu cầu phải đúng quy định.\n- Nội dung các NOTAM thể hiện trong PIB soạn thảo trên ứng dụng ATS xuất hiện 2 lần nếu tin tức trong NOTAM có phạm vi ảnh hưởng tới 2 khu vực (AE/AW).\n- Người soạn thảo PIB có thể lựa chọn NOTAM cho vào PIB hoặc loại NOTAM không mong muốn ra khỏi PIB theo yêu cầu của người khai thác.\n- Người soạn thảo PIB có thể xem tổng số trang và kiểm tra NOTAM trong PIB trên file PDF.\n\n***Tài liệu viện dẫn:*** Tài liệu HDKT cơ sở ARO/AIS Cam Ranh – Phụ lục 4, mục 4.1.1; hiệu lực từ 18/04/2024."
+},
+{
+  "id": "essay-816",
+  "q": "Anh/chị hãy trình bày các quy định chung về PIB? Nêu các bước cơ bản khi soạn thảo PIB?",
+  "type": "essay",
+  "answer": "*Quy định chung về PIB:*\n- PIB được soạn thảo dựa trên cơ sở chặng đầu tiên của lộ trình bay, từ lúc cất cánh đến điểm hạ cánh đầu tiên;\n- PIB được soạn thảo ngay sau khi chấp thuận FPL và cung cấp cho người làm TTB theo quy định hiện hành của ICAO và Việt Nam;\n- Hiệu lực của bản PIB: tính từ giờ EOBT (giờ dự định rời vị trí đỗ) đến ETA (giờ dự định hạ cánh) cộng thêm 04 giờ.\n\n*Áp dụng tiêu chí lọc mực bay trong bản PIB:*\n+ Đối với các FIR có sân bay đi, sân bay đến và sân bay dự bị: Lựa chọn giới hạn từ FL000 trở lên;\n+ Đối với các FIR còn lại không chứa các sân bay trên: Chọn giới hạn từ FL100 trở lên.\n\n- Hàng Q-codes của NOTAM không cần phải đưa vào PIB;\n- Cuối PIB phải có dòng chữ “End of PIB” (đối với Hệ thống AIS) hoặc “End of Document” (đối với Hệ thống AIM);\n- PIB phải được lưu trữ ít nhất 01 tháng.\n\n*Các bước cơ bản để soạn PIB:*\n1. Thực hiện kiểm tra đường truyền hệ thống trang thiết bị;\n2. Thực hiện kiểm tra giấy in, mực in để sẵn sàng soạn;\n3. Kiểm tra FPL trong ngày;\n4. Soạn, phát hành, cung cấp, cập nhật và lưu trữ PIB.\n\n***Tài liệu viện dẫn:*** Tài liệu HDKT cơ sở ARO/AIS Cam Ranh – mục 5.3.2; hiệu lực từ 12/11/2024."
+},
+{
+  "id": "essay-817",
+  "q": "Anh/chị hãy trình bày quy định cung cấp PIB tại cơ sở ARO/AIS Cam Ranh",
+  "type": "essay",
+  "answer": "*Cung cấp PIB:*\n- PIB được làm thành 02 bản (dạng giấy hoặc dạng điện tử): 01 bản giao cho người làm TTB và 01 bản để lưu.\n\n1) *Cung cấp PIB trực tiếp tại cơ sở ARO/AIS Cam Ranh:*\n- Khi cấp PIB, nhân viên có trách nhiệm yêu cầu người nhận ký và ghi rõ họ tên vào Sổ cấp phát PIB. Sổ cấp phát PIB phải ghi đầy đủ số hiệu chuyến bay, sân bay đến, giờ dự kiến cất cánh (ETD), thời gian cung cấp PIB, tên người cung cấp PIB;\n- Nhân viên có trách nhiệm giải thích trực tiếp bằng lời nếu được người làm TTB yêu cầu. Trong quá trình giải thích trực tiếp, nhân viên có thể:\n  + Sao chụp và cung cấp các sơ đồ, bản đồ, tài liệu để minh họa cho người nộp FPL;\n  + Cung cấp và giải thích các sản phẩm thông báo tin tức hàng không. Nếu có thắc mắc phải liên hệ cơ quan có thẩm quyền để xác minh.\n- Ngoài việc cung cấp PIB, nhân viên có thể cung cấp thêm tài liệu cần thiết khác liên quan đến chuyến bay cho tổ lái lần đầu đến sân bay (nếu có yêu cầu).\n\n*Ghi chú:*\n- Đối với chuyến bay khởi hành từ sân bay Cam Ranh, hạ cánh tại Tuy Hòa, Liên Khương, Buôn Ma Thuột và tiếp tục khởi hành từ đó: sau khi ARO Cam Ranh phát FPL, nhân viên AIS Cam Ranh soạn và cung cấp PIB trực tiếp cho người làm TTB (yêu cầu ký nhận vào sổ cấp phát PIB cho cả 02 bản).\n\n2) *Cung cấp PIB từ xa:*\n- Thực hiện theo phương thức làm thủ tục bay từ xa cho các chuyến bay của Hãng hàng không/Người khai thác tàu bay đã được Cục HKVN chấp thuận và theo VBHĐ/VB phối hợp giữa Trung tâm TBTTHK và các đơn vị liên quan.\n\n3) *Cung cấp PIB đối với chuyến bay khởi hành từ Tuy Hòa, Liên Khương, Buôn Ma Thuột (không áp dụng thủ tục bay từ xa):*\n- Nhân viên AIS Cam Ranh: dựa trên FPL đã phát, soạn và gửi PIB qua email cho Đài KSKL Tuy Hòa, Liên Khương, Buôn Ma Thuột để in và chuyển trực tiếp cho tổ lái.\n- Nhân viên AIS giải thích PIB qua điện thoại khi được yêu cầu.\n\n***Tài liệu viện dẫn:*** Tài liệu HDKT cơ sở ARO/AIS Cam Ranh – mục 5.3.2; hiệu lực từ 12/11/2024."
+},
+{
+  "id": "essay-818",
+  "q": "Anh/chị hãy trình bày quy định về Cập nhật PIB từ xa tại cơ sở làm việc của anh/chị.",
+  "type": "essay",
+  "answer": "Cơ sở AIS sân bay khi soạn xong PIB phải theo dõi những NOTAM/SNOWTAM mới nhận để cập nhật ngay vào PIB nếu những NOTAM/SNOWTAM này có liên quan trực tiếp đến chuyến bay.\n\nSau khi đã cấp PIB cho người làm TTB, nhân viên cơ sở ARO/AIS có trách nhiệm thường xuyên kiểm tra những NOTAM/SNOWTAM mới nhận được và cập nhật ngay cho người làm TTB theo phương thức sau:\n\n*Cập nhật PIB từ xa:*\n- Gửi NOTAM/SNOWTAM mới nhận được liên quan đến chuyến bay đã được cung cấp PIB qua thư điện tử tới hãng hàng không/công ty bay/doanh nghiệp trợ giúp thủ tục bay liên quan, đồng thời thông báo bằng điện thoại có ghi âm (lưu ý xưng tên và cơ quan, hỏi tên người nhận thông tin) theo Văn bản phối hợp hiện hành; hoặc\n- Thông báo bằng điện thoại có ghi âm (lưu ý xưng tên và cơ quan, hỏi tên người nhận thông tin) các nội dung cần cập nhật đối với PIB trong trường hợp không gửi được thư điện tử, và chuyển các nội dung cập nhật qua fax/AIM/AIS/AMHS hoặc bằng hình thức phù hợp; hoặc\n- Đề nghị các cơ sở điều hành bay liên quan (ACC Hồ Chí Minh, APP/TWR Cam Ranh, các TWR Tuy Hòa, Liên Khương, Buôn Ma Thuột) thông báo cho tổ lái qua liên lạc thoại vô tuyến trong trường hợp không kịp thông báo cho người làm TTB.\n\n***Tài liệu viện dẫn:*** Tài liệu HDKT cơ sở ARO/AIS Cam Ranh – mục 5.3.2; hiệu lực từ 12/11/2024."
+},
+{
+  "id": "essay-819",
+  "q": "Anh/chị hãy nêu các nội dung hiệp đồng giữa cơ sở ATS và cơ sở AIS",
+  "type": "essay",
+  "answer": "Theo Điều 23 Thông tư 19/2017/TT-BGTVT và Thông tư 32/2021/TT-BGTVT sửa đổi, bổ sung:\n\n1. Để đảm bảo cơ sở AIS thu thập được tin tức để cung cấp tin tức mới nhất trước chuyến bay và đáp ứng yêu cầu trong khi bay, cơ sở ATS phải cung cấp ngay cho cơ sở AIS các thông tin sau:\n   a) Tin tức về tình trạng khai thác của sân bay;\n   b) Tình trạng khai thác của dịch vụ, hệ thống kỹ thuật và thiết bị dẫn đường trong khu vực trách nhiệm;\n   c) Sự xuất hiện hoạt động núi lửa do nhân viên không lưu quan sát hoặc tổ lái báo cáo;\n   d) Các tin tức có tính chất khai thác quan trọng khác.\n\n2. Trước khi thông báo thay đổi hệ thống bảo đảm hoạt động bay, các cơ sở ATS liên quan phải tính đến thời gian để cơ sở AIS in ấn, phát hành ấn phẩm phù hợp. ATS và AIS phải hiệp đồng chặt chẽ đảm bảo cung cấp kịp thời tin tức cần thiết.\n\n3. Những thay đổi đặc biệt quan trọng ảnh hưởng đến sơ đồ và hệ thống dẫn đường bằng máy tính phải phát hành theo chu kỳ được quy định tại Chương IV.\n\n4. Cơ sở ATS có trách nhiệm cung cấp tin tức, dữ liệu cho cơ sở AIS theo yêu cầu về độ chính xác và tính toàn vẹn của dữ liệu hàng không.\n\n5. Cục Hàng không Việt Nam ban hành hướng dẫn việc cung cấp tin tức, dữ liệu cho cơ sở AIS."
+},
+{
+  "id": "essay-820",
+  "q": "Anh/chị hãy cho biết dự báo RAIM được cung cấp cho giai đoạn nào của chuyến bay?",
+  "type": "essay",
+  "answer": "Theo Quyết định 264/QĐ-CHK ngày 26/01/2021, dịch vụ dự báo RAIM được cung cấp cho các giai đoạn của chuyến bay:\n\n- Khu vực đường dài (En-route): RNAV 10 (RNP 10), RNAV 5, RNAV 2, RNP 4, RNP 2;\n- Khu vực trung tận (Terminal): RNAV 1, RNP 1;\n- Khu vực tiếp cận (Approach): RNP APCH.\n\n(Quyết định 264/QĐ-CHK ngày 26/01/2021 – Mục 4)"
+},
+{
+  "id": "essay-821",
+  "q": "Anh/chị hãy nêu quy định về việc phát hành tin tức hàng không theo chu kỳ AIRAC và cho biết các ngày có hiệu lực, ngày phát hành, ngày cuối cùng tin tức được chuyển đến cơ quan AIS được công bố ở đâu? Có thể thay đổi ngay tin tức phát hành theo chu kỳ AIRAC sau ngày có hiệu lực không?\nAnh/chị hãy cho biết các ngày quan trọng theo chu kỳ AIRAC",
+  "type": "essay",
+  "answer": "Tin tức được phổ biến theo chu kỳ AIRAC phải được xác định bằng những chữ cái đầu AIRAC đi kèm theo số của Tập tu chỉnh AIP, Tập bổ sung AIP được phát hành theo chu kỳ AIRAC đó. Tin tức phổ biến theo chu kỳ AIRAC phải công bố trước ngày có hiệu lực ít nhất là 42 ngày để đảm bảo tin tức được chuyển đến tay người sử dụng trước ngày có hiệu lực ít nhất là 28 ngày. Khi Tập bổ sung AIP hoặc một Tập tu chỉnh AIP được phát hành theo chu kỳ AIRAC, phải phát hành một NOTAM nhắc lại (Trigger NOTAM) nêu tóm tắt nội dung, ngày có hiệu lực và số tập tu chỉnh AIP hoặc số tập bổ sung AIP theo chu kỳ AIRAC đó. \n\nCác ngày có hiệu lực, ngày phát hành tin tức và ngày cuối cùng mà tin tức phải được chuyển đến cơ sở cung cấp dịch vụ thông báo tin tức hàng không theo chu kỳ AIRAC được công bố hằng năm và phổ biến bằng hình thức Thông tri hàng không. Tin tức được phát hành theo chu kỳ AIRAC không được thay đổi nội dung ít nhất là 28 ngày sau ngày có hiệu lực.\n\nCác ngày quan trọng theo chu kỳ AIRAC:\n-Có 3 ngày quan trọng trong hệ thống AIRAC: Ngày có hiệu lực (effective date), ngày phát hành (publication date), và ngày muộn nhất mà tin tức thô cần phát hành theo phương thức AIRAC phải được chuyển tới AIS.\n-Giữa ngày có hiệu lực và ngày phát hành phải cách nhau một khoảng thời gian là 42 ngày, trong đó có một khoảng thời gian tối đa là 14 ngày để tin tức được chuyển tới tay người sử dụng bằng phương tiện nhanh nhất. Như vậy, tin tức sẽ tới tay người sử dụng ít nhất là 28 ngày để người sử dụng có đủ thời gian để xử lý tin tức.\n-Các cơ quan, đơn vị liên quan có kế hoạch thay đổi những nội dung cần phải phát hành theo chu kỳ AIRAC phải gửi cho Cục Hàng không Việt Nam và các cơ sở AIS văn bản liên quan đến nội dung phát hành tin tức có chữ ký của người có thẩm quyền ít nhất 56 ngày trước ngày có hiệu lực của chu kỳ AIRAC;\n-Tin tức liên quan đến những thay đổi đặc biệt quan trọng đã được lập kế hoạch cần công bố ít nhất 56 ngày trước ngày có hiệu lực phải được gửi đến Cục Hàng không Việt Nam, các cơ sở AIS ít nhất 70 ngày trước ngày có hiệu lực của chu kỳ AIRAC để xử lý, biên soạn và phát hành.Tin tức thô cần phát hành theo phương thức AIRAC phải được chuyển tới AIS ít nhất là 7 ngày trước ngày phát hành để AIS có đủ thời gian để soạn thảo, in ấn và phát hành tin tức."
+},
+{
+  "id": "essay-822",
+  "q": "Anh/chị hãy nêu các quy định về NOTAM của Việt Nam?",
+  "type": "essay",
+  "answer": "Theo Tài liệu HDKT ARO/AIS Cam Ranh (Phụ lục 5), quy định về NOTAM của Việt Nam như sau:\n\n- Tuân thủ theo các tiêu chuẩn khuyến cáo thực hành của ICAO tại Annex 15, Doc 10066 (PANS-AIM) và Doc 8126;\n- Thời gian sử dụng trong điện văn NOTAM được tính theo giờ quốc tế (UTC);\n- Hiệu lực của NOTAM tối đa là 03 tháng. Nếu NOTAM có nội dung thay đổi tạm thời kéo dài quá 03 tháng, phải phát hành NOTAM thay thế;\n- NOTAM chứa đựng tin tức có tính chất lâu dài hoặc tạm thời nhưng kéo dài phải được đưa vào Tập tu chỉnh AIP hoặc Tập bổ sung AIP phù hợp;\n\n**Các loại NOTAM tại Việt Nam:**\n- NOTAM loại A: Tin tức liên quan tới các chuyến bay tầm trung, tầm xa và lân cận, được phổ biến cho quốc tế sử dụng;\n- NOTAM loại C: Tin tức liên quan tới hoạt động bay quốc nội, chỉ phổ biến cho nội địa sử dụng;\n- NOTAM loại J: Tin tức liên quan đến dự báo giám sát độ toàn vẹn dữ liệu vệ tinh (RAIM) tại các sân bay áp dụng PBN ở Việt Nam, phổ biến cho cả quốc tế và nội địa.\n\n**Quy định phát hành và quản lý NOTAM:**\n- NOTAM phải ghi rõ loại, số thứ tự và năm phát hành. Số thứ tự bắt đầu từ 0001 lúc 00h00 UTC ngày 01/01 hàng năm;\n- NOTAM được đánh số lại vào đầu mỗi năm, không được đánh số lại NOTAM hiện hữu;\n- Khi có sai sót, phải phát hành NOTAM thay thế hoặc hủy bỏ và phát hành NOTAM mới;\n- Một NOTAM chỉ có thể hủy bỏ hoặc thay thế một NOTAM cùng loại;\n- Mỗi NOTAM chỉ đề cập đến một nội dung và một điều kiện liên quan;\n- NOTAM phải soạn thảo ngắn gọn, rõ ràng để người nhận hiểu mà không cần tham khảo tài liệu khác;\n- Mỗi NOTAM được phát hành như một điện văn viễn thông độc lập, không gộp nhiều NOTAM trong cùng một điện văn;\n- Các chỉ danh trong NOTAM phải phù hợp với Doc 7910 ICAO, không dùng dạng rút gọn; địa danh chưa được ICAO phê chuẩn thì phải phiên âm Latinh;\n- Nội dung NOTAM phải dùng các thuật ngữ viết tắt thống nhất theo quy định ICAO;\n- Nếu NOTAM chứa tin tức lâu dài/ổn định thì phải tham chiếu tới AIP hoặc AIP Supplement liên quan;\n- Đối với NOTAM có mục C) chứa “EST”, phải phát hành NOTAM thay thế hoặc hủy bỏ trước hạn hết hiệu lực dự kiến;\n- Mục C) phải dùng “PERM” cho NOTAM chứa đựng tin tức đưa vào AIP. Những NOTAM này bị hủy sau ngày hiệu lực của Tập tu chỉnh liên quan 15 ngày;\n- Thời gian kết thúc một ngày phải ghi “2359”;\n- Khi có thời gian ảnh hưởng thực tế, NOTAM phải có mục D) chỉ rõ thời gian đó."
+},
+{
+  "id": "essay-823",
+  "q": "Anh/chị hãy trình bày các loại tin tức hàng không?",
+  "type": "essay",
+  "answer": "Tin tức hàng không được phân thành 3 loại chính:\n\na) Tin tức có tính chất tạm thời:\n- Tin tức về việc dừng khai thác đường cất hạ cánh, đường lăn, sân đỗ;\n- Tin tức về việc dừng hoạt động để bảo dưỡng các phù trợ dẫn đường, các phương tiện phục vụ điều hành bay;\n- Tin tức về các thay đổi quan trọng có ảnh hưởng đến việc khai thác bay;\n- Tin tức về hoạt động tại các khu vực cấm bay, khu vực hạn chế bay, khu vực nguy hiểm;\n- Những tin tức và các hoạt động khác có ảnh hưởng đến an toàn bay.\n\nb) Tin tức có tính chất lâu dài:\n- Tin tức về việc đưa vào khai thác hoặc chấm dứt khai thác đường cất hạ cánh, đường lăn, sân đỗ và các phương tiện CNS;\n- Tin tức về số liệu đường cất hạ cánh của các sân bay;\n- Tin tức về kiểu loại, tần số và vị trí của các thiết bị phù trợ dẫn đường trên đường bay;\n- Tin tức về ATS, COM, MET, SAR;\n- Các phương thức không lưu;\n- Những tin tức có tính chất lâu dài khác liên quan đến hoạt động bay.\n\nc) Tin tức hành chính:\n- Các văn bản pháp luật của Việt Nam có liên quan đến lĩnh vực hàng không dân dụng;\n- Áp dụng hoặc miễn áp dụng các quy định của pháp luật Việt Nam trong lĩnh vực hàng không dân dụng;\n- Các quy định bổ sung về cấp giấy phép hành nghề cho những người làm việc trong lĩnh vực khai thác - kỹ thuật hàng không;\n- Các quy định về huấn luyện, đào tạo."
+},
+{
+  "id": "essay-824",
+  "q": "Anh/chị hãy trình bày quy định về cung cấp dịch vụ thông báo tin tức hàng không sân bay?",
+  "type": "essay",
+  "answer": "Theo Điều 75 Thông tư 19/2017/TT-BGTVT và Thông tư 32/2021/TT-BGTVT sửa đổi, bổ sung:\n\n- Cơ sở AIS sân bay chịu trách nhiệm cung cấp dịch vụ thông báo tin tức hàng không tại sân bay;\n- Việc thành lập cơ sở AIS sân bay phụ thuộc vào các yếu tố: số lượng, loại hình khai thác, tầm hoạt động của tàu bay đi, đến cảng hàng không;\n- Cơ sở AIS sân bay phải được đặt ở vị trí thuận lợi, có biển báo chỉ dẫn để tổ lái có đủ thời gian thực hiện các thủ tục trước và sau chuyến bay;\n- Cơ sở AIS sân bay phải thiết lập và duy trì mối liên hệ thường xuyên với đại diện các hãng hàng không liên quan để chuẩn bị và cung cấp tin tức trước chuyến bay phù hợp với yêu cầu của người sử dụng;\n- Cơ sở AIS sân bay chịu trách nhiệm về chất lượng, tính chính xác và tính kịp thời của tin tức hàng không trong trường hợp sử dụng hệ thống cung cấp PIB tự động."
+},
+{
+  "id": "essay-825",
+  "q": "Anh/chị hãy nêu các trường hợp phát hành SNOWTAM và các tin tức bắt buộc nêu trong cấu trúc của SNOWTAM. Anh/chị hãy cho biết mục D và mục E trong phần Tính toán hoạt động bay trong một SNOWTAM thể hiện nội dung gì? Nêu ví dụ.",
+  "type": "essay",
+  "answer": "*Các trường hợp phát hành SNOWTAM bao gồm:*\n- Sự xuất hiện/kết thúc của hiện tượng nước đọng trên bề mặt đường cất hạ cánh (CHC);\n- Sự xuất hiện/kết thúc của hiện tượng có nước đọng trên bề mặt đường CHC kết hợp với các hiện tượng tuyết, băng, tuyết tan, sương giá;\n- Sự xuất hiện/kết thúc của hiện tượng tuyết, băng, tuyết tan, sương giá trên bề mặt khu hoạt động của sân bay.\n\n*Các tin tức bắt buộc trong cấu trúc SNOWTAM:*\n1) Mã sân bay;\n2) Ngày và thời điểm đánh giá;\n3) Số chỉ định phía đường CHC thấp hơn;\n4) Mã tình trạng mặt đường CHC cho mỗi phần ba đường CHC;\n5) Mô tả tình trạng đối với mỗi phần ba đường CHC (khi mã tình trạng đường CHC (RWYCC) được báo cáo từ 1–5).\n\n*Mục D trong phần Tính toán hoạt động bay của SNOWTAM:*\n- Thể hiện mã tình trạng đường CHC cho mỗi 1/3 đường CHC.\n- Chỉ một chữ số (từ 1 đến 6) được đưa vào cho mỗi 1/3 đường CHC, được phân tách bằng dấu gạch chéo (/).\n- Ví dụ: `3/2/6`: mã tình trạng đường CHC cho 1/3 đầu tiên của RWY 07L là 3, cho 1/3 thứ hai là 2 và cho 1/3 cuối cùng là 6.\n\n*Mục E trong phần Tính toán hoạt động bay của SNOWTAM:*\n- Thể hiện phần trăm chất bám bao phủ cho mỗi 1/3 đường CHC.\n- Phần trăm độ bao phủ được báo cáo là: NR (<10% hoặc DRY), 25 (10–25%), 50 (26–50%), 75 (51–75%), hoặc 100 (76–100%), phân tách bằng dấu gạch chéo.\n- Lưu ý: Khi tình trạng là DRY hoặc <10% thì ghi NR; khi không có thông tin thì ghi /NR/.\n- Ví dụ: `50/25/NR`: tầm phủ tại 1/3 đầu tiên của RWY 08L là 50% (26–50%), tại 1/3 thứ hai là 25% (10–25%) và ít hơn 10% tại 1/3 cuối (NR).\n\n*Tài liệu tham khảo:* Tài liệu hướng dẫn về tiêu chuẩn – Dịch vụ thông báo tin tức hàng không, Phụ lục 6 – Tài liệu HDKT."
+},
+{
+  "id": "essay-826",
+  "q": "Anh/chị hãy cho biết các yêu cầu về xử lý, phát hành tin tức hàng không được quy định tại Thông tư 19/2017/TT-BGTVT và Thông tư 32/2021/TT-BGTVT sửa đổi, bổ sung một số điều của Thông tư số 19/2017/TT-BGTVT?",
+  "type": "essay",
+  "answer": "Theo Điều 59 Thông tư 19/2017/TT-BGTVT và Thông tư 32/2021/TT-BGTVT sửa đổi, bổ sung:\n\n- Các tin tức có ảnh hưởng đến an toàn bay phải được cung cấp kịp thời và đầy đủ;\n- Khi có dự kiến thay đổi về cơ sở hạ tầng, trang thiết bị kỹ thuật, phương thức khai thác, các cơ quan, đơn vị liên quan phải lập kế hoạch và tính đến khoảng thời gian cần thiết để các cơ sở AIS chuẩn bị và phát hành các tin tức đó dưới hình thức ấn phẩm AIS phù hợp;\n- Trong một số trường hợp cụ thể, tin tức hàng không không được gửi kịp thời đến cơ sở AIS có thể bị từ chối công bố."
+},
+{
+  "id": "essay-827",
+  "q": "Anh/chị hãy cho biết các trường hợp phát hành tin tức theo chu kỳ AIRAC?",
+  "type": "essay",
+  "answer": "Theo Điều 70 Thông tư 19/2017/TT-BGTVT và Thông tư 32/2021/TT-BGTVT sửa đổi, bổ sung, việc phát hành tin tức theo chu kỳ AIRAC được thực hiện trong trường hợp thiết lập, hủy bỏ hoặc có những thay đổi quan trọng. Năm trường hợp điển hình bao gồm:\n\n1. Giới hạn, phương thức khai thác FIR, khu vực kiểm soát và vùng trời kiểm soát; khu vực tư vấn không lưu; đường bay ATS; khu vực cấm bay, nguy hiểm, hạn chế bay và vùng nhận dạng phòng không (ADIZ);\n2. Vị trí, tần số, tên gọi, các hiện tượng bất thường đã biết, chu kỳ bảo dưỡng của hệ thống, thiết bị dẫn đường vô tuyến và thông tin liên lạc, giám sát;\n3. Phương thức bay chờ, phương thức tiếp cận, SID, STAR, phương thức giảm tiếng ồn và phương thức không lưu khác;\n4. Mực bay chuyển tiếp, độ cao chuyển tiếp, độ cao bay tối thiểu theo phân khu;\n5. Đường cất hạ cánh, đường lăn, sân đỗ và phương án vận hành trên khu vực hoạt động tại sân bay (bao gồm khai thác trong điều kiện tầm nhìn thấp)."
+},
+{
+  "id": "essay-828",
+  "q": "Anh/chị hãy nêu các quy định liên quan đến Tập tu chỉnh AIP Việt Nam nêu tại Thông tư 19/2017/TT-BGTVT và Thông tư 32/2021/TT-BGTVT sửa đổi, bổ sung một số điều của Thông tư số 19/2017/TT-BGTVT?",
+  "type": "essay",
+  "answer": "Theo Điều 67 Thông tư 19/2017/TT-BGTVT và Thông tư 32/2021/TT-BGTVT sửa đổi, bổ sung:\n\n- Tập tu chỉnh AIP bao gồm những tin tức trong NOTAM, tập bổ sung AIP có giá trị lâu dài, thông tri hàng không phù hợp, cùng các tin tức có tính chất ổn định và lâu dài khác có liên quan.\n\n- Có hai dạng tu chỉnh được thực hiện:\n  1. Tu chỉnh thường xuyên (AIP AMDT);\n  2. Tu chỉnh theo chu kỳ AIRAC (AIRAC AIP AMDT).\n\n- Các cơ quan, đơn vị có nhu cầu sửa đổi, bổ sung tin tức công bố trong AIP phải gửi đề nghị tu chỉnh AIP đến Phòng AIP ít nhất 56 ngày trước ngày có hiệu lực của tu chỉnh thường xuyên (thời hạn này được công bố trong AIC số 02 hằng năm).\n\n- Khi một Tập tu chỉnh AIP không được phát hành theo chu kỳ quy định, phải thông báo bằng một NOTAM NIL, trong đó ghi rõ chu kỳ mà tập tu chỉnh AIP đó không được phát hành."
+},
+{
+  "id": "essay-829",
+  "q": "Anh/chị hãy cho biết nội dung chi tiết về đường hàng không?",
+  "type": "essay",
+  "answer": "Theo Điều 5 Nghị định 125/2015/NĐ-CP ngày 04/12/2015 (hiệu lực từ ngày 26/01/2016):\n\n- Đường hàng không bao gồm đường hàng không quốc tế và đường hàng không nội địa, được thiết lập trên cơ sở:\n  + Nhu cầu giao lưu hàng không quốc tế;\n  + Yêu cầu hoạt động bay nội địa;\n  + Yêu cầu, khả năng cung cấp các dịch vụ bảo đảm hoạt động bay, bảo đảm an ninh, an toàn hàng không;\n  + Yêu cầu, khả năng quản lý và bảo vệ vùng trời, bảo đảm quốc phòng và an ninh quốc gia;\n  + Phù hợp với quy hoạch phát triển ngành hàng không dân dụng Việt Nam và kế hoạch không vận của Tổ chức Hàng không dân dụng quốc tế (ICAO).\n\n- Ký hiệu đường hàng không:\n  + Đường hàng không quốc nội được ký hiệu bằng các chữ: H, J, Q, T, V, Y, Z, W và đánh số thứ tự bằng chữ số Ả Rập;\n  + Đường hàng không quốc tế được ký hiệu bằng các chữ: A, B, G, L, M, N, P, R và đánh số thứ tự bằng chữ số Ả Rập."
+},
+{
+  "id": "essay-830",
+  "q": "Anh/chị hãy đọc nội dung SNOWTAM sau: (SNOWTAM 0009 VOMD 09021142 09 5/5/2 100/100/100 NR/NR/04 WET/WET/STANDING WATER TWY WET APRON WET). Hãy dịch và giải thích nội dung SNOWTAM này.",
+  "type": "essay",
+  "answer": "SNOWTAM số 0009 được phát hành cho sân bay Madurai (VOMD), Ấn Độ.\n\n- Thời điểm đánh giá: lúc 11 giờ 42 phút ngày 02 tháng 09.\n- Đường cất hạ cánh (CHC) 09:\n  + 1/3 đầu tiên và 1/3 thứ hai (tính từ đầu đường CHC 09): Mã tình trạng đường CHC là 5 (WET), tình trạng bề mặt là ẩm ướt, chiếm 76–100% độ bao phủ, không có giá trị độ sâu báo cáo.\n  + 1/3 thứ ba: Mã tình trạng đường CHC là 2 (STANDING WATER), bề mặt có hiện tượng nước đọng, chiếm 76–100% độ bao phủ, giá trị độ sâu 4 mm.\n- Đường lăn (TWY): Ẩm ướt (WET).\n- Sân đỗ (APRON): Ẩm ướt (WET).\n\n=> Tóm lại: Đường CHC 09 có bề mặt ẩm ở 2/3 đầu, còn 1/3 cuối xuất hiện nước đọng (độ sâu 4 mm). Các khu vực đường lăn và sân đỗ cũng trong tình trạng ẩm ướt."
+},
+{
+  "id": "essay-831",
+  "q": "Anh/chị hãy đọc nội dung NOTAM sau: (A1879/24 NOTAMN Q)VVHM/QAEXX/IV/NBO/AE/000/054/1033N10705E001 A)VVTS B)2405250200 C)2405260400 D)25 26 0200-0400 E)DUE TO FRNG ACT (NOTAM VVVV A1841/24), LOW-FLYING ACFT (SUCH AS HEL, VSA...) ARE NOT PERMITTED TO OPR WI TAN SON NHAT APP'S RESPONSIBILITY AREA.). Hãy dịch và giải thích NOTAM này.",
+  "type": "essay",
+  "answer": "Đây là NOTAM series A, số 1879, phát hành năm 2024, loại NOTAM mới (NOTAMN).\n\n- **FIR áp dụng**: Hồ Chí Minh (VVHM).\n- **Mã Q-line**: QAEXX/IV/NBO/AE thể hiện: tin tức liên quan đến khu vực kiểm soát; áp dụng cho cả chuyến bay bằng thiết bị (IFR) và bằng mắt (VFR); NOTAM cần đưa vào PIB.\n- **Phạm vi ảnh hưởng**: Khu vực sân bay Tân Sơn Nhất (VVTS).\n- **Độ cao ảnh hưởng**: Từ mặt đất (000) đến FL054.\n- **Tọa độ trung tâm**: 10°33'N, 107°05'E, bán kính 01 NM.\n- **Thời gian hiệu lực**: 02h00 UTC đến 04h00 UTC trong các ngày 25 và 26 tháng 5 năm 2024 (tổng cộng 2 ngày, mỗi ngày trong khung 2 giờ).\n\n**Nội dung dịch**: Do có hoạt động bắn (theo nội dung NOTAM A1841/24 do NOF Việt Nam phát hành), các loại tàu bay bay thấp (như trực thăng, máy bay quan sát mặt đất…) không được phép hoạt động trong khu vực trách nhiệm của Trung tâm kiểm soát tiếp cận Tân Sơn Nhất (Tan Son Nhat APP).\n\n=> Tóm lại: Trong thời gian từ 02h00 đến 04h00 UTC ngày 25 và 26/5/2024, cấm hoạt động các loại tàu bay bay thấp trong vùng trách nhiệm của APP Tân Sơn Nhất do có hoạt động bắn."
+},
+{
+  "id": "essay-832",
+  "q": "Anh/chị hãy đọc nội dung NOTAM sau: (A1901/24 NOTAMN Q)VVHM/QMPXX/IV/NBO/A/000/999/1200N10913E005 A)VVCR B)2405260236 C)PERM E)IN CASE OF NEED TO MARK STOP LINE OF THE NOSEWHEEL, SAFETY CONES WILL BE PLACED ON THE BOTH SIDES OF STOP LINE, 2M-3M FM THE CL OF THE TAXILANE TO STAND BFR ACFT TAXI INTO STAND.). Hãy dịch và giải thích NOTAM này.",
+  "type": "essay",
+  "answer": "Đây là NOTAM series A, số 1901, phát hành năm 2024, loại NOTAM mới (NOTAMN).\n\n- **FIR áp dụng**: Hồ Chí Minh (VVHM).\n- **Mã Q-line**: QMPXX/IV/NBO/A thể hiện: tin tức liên quan đến vị trí đỗ tàu bay (Apron/Stand), áp dụng cho chuyến bay bằng thiết bị (IFR) và bằng mắt (VFR), NOTAM phải đưa vào PIB.\n- **Phạm vi ảnh hưởng**: Sân bay Cam Ranh (VVCR).\n- **Độ cao ảnh hưởng**: Từ mặt đất (000) đến FL999.\n- **Tọa độ trung tâm**: 12°00'N, 109°13'E, bán kính 05 NM.\n- **Thời gian hiệu lực**: Bắt đầu từ 02h36 UTC ngày 26/5/2024, hiệu lực lâu dài (PERM).\n\n**Nội dung dịch**: Trong trường hợp cần đánh dấu vạch dừng của bánh mũi tàu bay, các chóp an toàn sẽ được đặt ở hai bên vạch dừng, cách tim đường lăn dẫn vào vị trí đỗ 2–3 mét, trước khi tàu bay lăn vào vị trí đỗ.\n\n=> Tóm lại: Từ ngày 26/5/2024, tại sân bay Cam Ranh, khi cần đánh dấu vạch dừng bánh mũi tàu bay, sẽ sử dụng các chóp an toàn đặt cách tim đường lăn 2–3m ở hai bên vạch dừng để hướng dẫn tàu bay vào vị trí đỗ."
+},
+{
+  "id": "essay-833",
+  "q": "Anh/chị hãy đọc nội dung NOTAM sau: (C0278/24 NOTAMN Q)VVHN/QFALT/IV/NBO/A/000/999/1847N10540E005 A)VVVH B)2405061227 C)2405071659 E)VINH DOM AP NOT AVBL FOR ALTN AD FM 30 MINS AFT THE LAST SKED FLT OF THE DAY TO 60 MINS BFR THE FIRST SKED FLT THE FLW DAY. (SEE NOTAM VVVV C0277/24).). Hãy dịch và giải thích NOTAM này.",
+  "type": "essay",
+  "answer": "Đây là NOTAM series C, số 0278, phát hành năm 2024, loại NOTAM mới (NOTAMN).\n\n- **FIR áp dụng**: Hà Nội (VVHN).\n- **Mã Q-line**: QFALT/IV/NBO/A – tin tức liên quan đến hạn chế khai thác sân bay, áp dụng cho chuyến bay IFR và VFR, cần đưa vào PIB.\n- **Phạm vi ảnh hưởng**: Sân bay Vinh (VVVH).\n- **Độ cao ảnh hưởng**: Từ 000 đến FL999.\n- **Tọa độ trung tâm**: 18°47'N, 105°40'E, bán kính 05 NM.\n- **Thời gian hiệu lực**: Từ 12h27 UTC ngày 06/5/2024 đến 16h59 UTC ngày 07/5/2024.\n\n**Nội dung dịch**: Sân bay Vinh (sân bay nội địa) không được sử dụng làm sân bay dự bị trong khoảng thời gian từ 30 phút sau chuyến bay thường lệ cuối cùng trong ngày cho đến 60 phút trước chuyến bay thường lệ đầu tiên của ngày tiếp theo. (Tham khảo thêm NOTAM VVVV C0277/24).\n\n=> Tóm lại: Trong thời gian hiệu lực, sân bay Vinh sẽ không thể dùng làm sân bay dự bị trong khung giờ từ sau chuyến bay cuối ngày đến trước chuyến bay đầu ngày hôm sau."
+},
+{
+  "id": "essay-834",
+  "q": "Anh/chị hãy đọc nội dung NOTAM sau: (A2623/24 NOTAMN Q)VVHM/QARXX/IV/NBO/E/000/999/1121N10844E999 A)VVHM B)2405041630 C)2405042100 E)DUE TO BAD WX AND TFC CONGESTION, TFC OVERFLYING HO CHI MINH FIR VIA FOLLOWING ROUTES OVER ARESI SUBJECT TO FLOW CONTROL RESTRICTION 1/ L628 ARESI L625 : 10 MIN 2/ L625 : 10 MIN 3/ M765 ALDAS L625 : 15 MIN 4/ FOR ACFT DEP FM VVTS : 10 MIN AND VVCR : 15 MIN TO JAPAN, KOREA, TAIWAN VIA ARESI L625 MINIMUM DEPARTURE INTERVAL.) Hãy dịch và giải thích NOTAM này.",
+  "type": "essay",
+  "answer": "Đây là NOTAM series A, số 2623, phát hành năm 2024, loại NOTAM mới (NOTAMN).\n\n- **FIR áp dụng**: Hồ Chí Minh (VVHM).\n- **Mã Q-line**: QARXX/IV/NBO/E – tin tức liên quan đến đường bay ATS, áp dụng cho chuyến bay IFR và VFR, cần đưa vào PIB.\n- **Phạm vi ảnh hưởng**: FIR Hồ Chí Minh.\n- **Độ cao ảnh hưởng**: Từ 000 đến FL999.\n- **Tọa độ trung tâm**: 11°21'N, 108°44'E, ảnh hưởng toàn bộ vùng FIR.\n- **Thời gian hiệu lực**: Từ 16h30 đến 21h00 UTC ngày 04/5/2024.\n\n**Nội dung dịch**: Do thời tiết xấu và ùn tắc không lưu, các chuyến bay bay qua FIR Hồ Chí Minh theo các đường qua điểm ARESI phải tuân thủ hạn chế kiểm soát luồng như sau:\n1. Đường bay L628 qua ARESI đến L625: khoảng cách tối thiểu 10 phút;\n2. Đường bay L625: khoảng cách tối thiểu 10 phút;\n3. Đường bay M765 qua ALDAS đến L625: khoảng cách tối thiểu 15 phút;\n4. Đối với tàu bay khởi hành từ Tân Sơn Nhất (VVTS): tối thiểu 10 phút, từ Cam Ranh (VVCR): tối thiểu 15 phút khi bay đi Nhật Bản, Hàn Quốc, Đài Loan qua ARESI L625.\n\n=> Tóm lại: Trong khung giờ quy định, tất cả các chuyến bay qua ARESI trong FIR Hồ Chí Minh phải giãn cách tối thiểu theo quy định để giảm tải do thời tiết xấu và ùn tắc không lưu."
+},
+{
+  "id": "essay-835",
+  "q": "Anh/chị hãy đọc nội dung NOTAM sau: (A1683/24 NOTAMN Q)VVHM/QWMLW/IV/BO/W/000/086/1159N10920E007 A)VVHM B)2405060030 C)2405060745 D)0030-0110 0700-0745 E)FRNG WILL TAKE PLACE WI: 120130N1091300E - 120130N1092530E - 115620N1092430E - 115620N1091545E - 120130N1091300E BRG: S (180DEG), SE (120DEG, 130DEG), NE (45DEG) - ALL FLIGHTS ARE PROHIBITED WITHIN THIS AREA. F)GND G)8600FT AMSL) Hãy dịch và giải thích NOTAM này.",
+  "type": "essay",
+  "answer": "Đây là NOTAM series A, số 1683, phát hành năm 2024, loại NOTAM mới (NOTAMN).\n\n- **FIR áp dụng**: Hồ Chí Minh (VVHM).\n- **Mã Q-line**: QWMLW/IV/BO/W – tin tức về hoạt động bắn đạn, áp dụng cho cả chuyến bay IFR và VFR, NOTAM cảnh báo (Warning).\n- **Phạm vi ảnh hưởng**: FIR Hồ Chí Minh.\n- **Độ cao ảnh hưởng**: từ mặt đất (GND) đến 8600 feet AMSL.\n- **Tọa độ trung tâm**: 11°59'N, 109°20'E; khu vực được xác định bằng đa giác tọa độ (4 điểm đóng khép).\n- **Bán kính**: khoảng 7 hải lý.\n- **Thời gian hiệu lực**: ngày 06/5/2024, từ 00h30–01h10 UTC và từ 07h00–07h45 UTC.\n\n**Nội dung dịch**: Sẽ có hoạt động bắn đạn trong khu vực được giới hạn bởi các tọa độ:\n- 120130N1091300E\n- 120130N1092530E\n- 115620N1092430E\n- 115620N1091545E\n- 120130N1091300E (điểm đóng khu vực)\n\nHướng bắn: Nam (180°), Đông Nam (120°, 130°), Đông Bắc (45°).\n\n=> **Cấm tất cả các chuyến bay trong khu vực này** trong khung giờ quy định.\n\n**Kết luận**: NOTAM A1683/24 cảnh báo khu vực bắn đạn trong FIR Hồ Chí Minh, cấm bay trong vùng nguy hiểm được giới hạn bằng tọa độ, từ mặt đất đến 8600ft AMSL, trong hai khung giờ ngày 06/5/2024."
+},
+{
+  "id": "essay-836",
+  "q": "Anh/ chị hãy đọc nội dung NOTAM sau:\n(J0134/24 NOTAMR J0112/24\nA)VVCR\nB)2405060959 C) 2405061018\nE)GPS RAIM PREDICTION FOR:\nTSO-C129 FD\n01 GPS RAIM OUTAGES PREDICTED FOR RNP APCH\n2405060959/2405061018\nTSO-146A FDE\n01 GPS RAIM OUTAGES PREDICTED FOR RNP APCH\n2405061002/2405061016.)",
+  "type": "essay",
+  "answer": "NOTAM nêu trên là NOTAM loại J - dự báo RAIM, là NOTAM thay thế, có số 0134 năm phát hành 2024 thay thế NOTAM J số 0112 phát hành năm 2024 được phát cho sân bay Cam Ranh:\n Có nghĩa là tại Cảng hàng không quốc tế Cam Ranh (VVCR):\nCó sự suy giảm độ toàn vẹn dữ liệu vệ tinh từ 09h59 đến 10h18 (UTC) ngày   06/5/2024 đối với máy thu TSO-C129 sử dụng thuật toán Fault Detection trong đó độ toàn vẹn dữ liệu vệ tinh GPS không đáp ứng cho tiếp cận RNP.\nCó sự suy giảm độ toàn vẹn dữ liệu vệ tinh, từ 10h02 đến 10h16 ngày  06/5/2024 đối với các máy thu TSO-146A sử dụng thuật toán Fault Detection with Exclusion trong đó độ toàn vẹn dữ liệu vệ tinh GPS không đáp ứng cho tiếp cận RNP."
+},
+{
+  "id": "essay-838",
+  "q": "Anh/ chị hãy đọc nội dung NOTAM sau:\n(A2575/24  NOTAMN\nQ)VVHM/QWULW/IV/BO/W/000/011/1154N10912E001\nA) VVHM B)2405060030 C) 2405080230\nD) 06-08 0030-0230\nE) UNMANNED ACFT WILL TAKE PLACE WI:\n115308N1091145E - 115420N1091145E - 115420N1091232E - 115308N1091232E - 115308N1091145E\n- ALL FLIGHTS ARE PROHIBITED WITHIN THIS AREA.\nF) GND G) 300M AGL)\nDịch NOTAM:\nĐây là NOTAM serie A, số 2575 phát hành năm 2024, loại NOTAM mới.\nTin tức ảnh hưởng thuộc FIR Hồ Chí Minh\nSử dụng mã code để chỉ nội dung về thực hiện tàu bay không người lái; áp dụng cho các chuyến bay bằng thiết bị và bằng mắt; NOTAM cần được chọn lựa để đưa vào Bản tin thông báo trước chuyến bay và là NOTAM chứa đựng tin tức liên quan đến khai thác bay; \nNOTAM cảnh báo, phạm vi ảnh hưởng của tin tức: FIR Hồ Chí Minh; Độ cao ảnh hưởng từ 000 đến FL011. Tọa độ: 11 độ 54 phút kinh độ và 109 độ 12 phút vĩ độ; bán kính: 01 dặm.\nThời gian tin tức có hiệu lực: Trong khoảng thời gian từ 00h30(UTC) đến 02h30(UTC) từ ngày  06/5/2024 đến 08/5/2024\nNội dung: Tàu bay không người lái diễn ra trong khu vực:\n115308N1091145E - 115420N1091145E - 115420N1091232E - 115308N1091232E - 115308N1091145E\nCấm tất cả các chuyến bay bay trong khu vực này\nĐộ cao từ mặt đất lên đến 300m (so với mặt đất)",
+  "type": "essay",
+  "answer": "Đây là NOTAM serie A, số 2575 phát hành năm 2024, loại NOTAM mới.\nTin tức ảnh hưởng thuộc FIR Hồ Chí Minh. Sử dụng mã code để chỉ nội dung về thực hiện tàu bay không người lái; áp dụng cho các chuyến bay bằng thiết bị và bằng mắt; NOTAM cần được chọn lựa để đưa vào Bản tin thông báo trước chuyến bay và là NOTAM chứa đựng tin tức liên quan đến khai thác bay.\n\nNOTAM cảnh báo, phạm vi ảnh hưởng: FIR Hồ Chí Minh; độ cao ảnh hưởng từ 000 đến FL011. Tọa độ: 11°54' vĩ độ Bắc và 109°12' kinh độ Đông; bán kính: 01 dặm.\n\nThời gian tin tức có hiệu lực: 00h30 đến 02h30 (UTC), từ ngày 06/5/2024 đến 08/5/2024.\n\nNội dung: Tàu bay không người lái diễn ra trong khu vực:\n115308N1091145E - 115420N1091145E - 115420N1091232E - 115308N1091232E - 115308N1091145E.\n\nCấm tất cả các chuyến bay bay trong khu vực này. Độ cao từ mặt đất lên đến 300m (so với mặt đất)."
+},
+{
+  "id": "essay-839",
+  "q": "Anh/ chị hãy đọc nội dung SNOWTAM sau:\n(SNOWTAM 0009\nVOMD\n09021142 09 5/5/2 100/100/100 NR/NR/04 WET/WET/STANDING WATER\nTWY WET APRON WET)",
+  "type": "essay",
+  "answer": "Đây là SNOWTAM số 0009 phát hành cho sân bay Madurai, Ấn Độ.\n\nĐường CHC 09 được đánh giá lúc 11 giờ 42 phút ngày 02 tháng 09. 1/3 đầu tiên và 1/3 thứ hai của đường CHC tính từ đầu đường CHC 09 được đánh giá là Ẩm (WET) với mã tình trạng đường CHC là 5, chiếm 76-100% độ bao phủ và không có giá trị đánh giá về độ sâu. 1/3 thứ ba của đường CHC tính từ đầu đường CHC 09 được đánh giá là Nước đọng (STANDING WATER) với mã tình trạng đường CHC là 2, chiếm 76-100% độ bao phủ và giá trị độ sâu là 4mm.\n\nĐường lăn (TWY) ẩm, sân đỗ (APRON) ẩm."
+},
+{
+  "id": "essay-840",
+  "q": "Anh/chị hãy dịch nội dung sau sang Tiếng Việt:\nAir defence identification zone (ADIZ): Special designated airspace of defined dimensions within which aircraft are required to comply with special identification and/or reporting procedures additional to those related to the provision of air traffic services.",
+  "type": "essay",
+  "answer": "Vùng nhận dạng phòng không (ADIZ): Vùng trời đặc biệt được thiết lập có kích thước xác định trong đó tàu bay phải tuân theo việc nhận dạng đặc biệt hoặc các phương thức báo cáo ngoài các phương thức liên quan đến việc cung cấp dịch vụ không lưu (ATS)."
+}
+],
+'CR_ARO_092025': [
+{
+  "id": "essay-841",
+  "q": "Anh/chị hãy nêu trách nhiệm ARO Cam Ranh?",
+  "type": "essay",
+  "answer": "Theo Mục 2.3 – TLHDKT Cơ sở ARO/AIS Cam Ranh:\n\na) Trách nhiệm ARO:\n- Thực hiện nhiệm vụ Thủ tục bay tại các sân bay: Cam Ranh, Tuy Hòa, Liên Khương, Buôn Ma Thuột;\n- Nhận kế hoạch hoạt động bay ngày;\n- Nhận, kiểm tra, đối chiếu nội dung trong FPL;\n- Chấp thuận và phát FPL qua mạng AFTN/AMHS/AIS đến các cơ sở ATS liên quan trong nước và quốc tế;\n- Nhận, xử lý, lưu trữ điện văn không lưu;\n- Nhận giờ cất cánh, hạ cánh và các thông tin bổ sung, thay đổi để phát các điện văn ATS phù hợp;\n- Phối hợp, hiệp đồng với các cơ sở ATS và các cơ quan, đơn vị khác có liên quan đảm bảo điều hòa cho hoạt động bay tại sân bay;\n- Thực hiện chế độ trực tại vị trí làm việc theo đúng quy định;\n- Thực hiện chế độ báo cáo và lưu trữ tài liệu theo quy định;\n- Thực hiện các nhiệm vụ khác khi được cấp trên giao."
+},
+{
+  "id": "essay-842",
+  "q": "Anh/chị hãy nêu quyền hạn ARO của cơ sở ARO/AIS Cam Ranh.",
+  "type": "essay",
+  "answer": "Quyền hạn của ARO tại cơ sở ARO/AIS Cam Ranh:\n- Được phép chủ động liên lạc với các tổ chức, đơn vị trong và ngoài đơn vị để thực hiện nhiệm vụ được giao theo quy định;\n- Được phép yêu cầu các cơ quan, đơn vị trong và ngoài ngành hàng không cung cấp các tin tức hàng không liên quan trong phạm vi trách nhiệm theo quy định;\n- Được phép yêu cầu trực đảm bảo kỹ thuật kiểm tra, sửa chữa các phương tiện, trang bị, thiết bị của cơ sở khi có sự cố;\n- Được tham gia xây dựng kế hoạch hoạt động hàng năm, kế hoạch lao động, đề xuất bố trí, sử dụng lao động, kế hoạch đào tạo - huấn luyện."
+},
+{
+  "id": "essay-843",
+  "q": "Anh/chị hãy cho biết trách nhiệm của nhân viên thủ tục bay và cho biết trách nhiệm đó được quy định ở tài liệu nào?",
+  "type": "essay",
+  "answer": "Theo Mục 2.6.2 TLHDKT Cơ sở ARO/AIS Cam Ranh, trách nhiệm của nhân viên thủ tục bay bao gồm:\n- Thực hiện các nhiệm vụ theo phân công của kíp trưởng kíp trực; Trưởng/Phó trưởng cơ sở;\n- Khai thác, bảo quản, theo dõi tình trạng hoạt động của hệ thống kỹ thuật, trang bị, thiết bị;\n- Đảm bảo tốt công tác an ninh, an toàn, vệ sinh lao động, phòng chống cháy nổ theo quy định;\n- Phối hợp, hiệp đồng với các cơ quan, đơn vị liên quan;\n- Thực hiện chế độ trực tại vị trí làm việc theo đúng quy định;\n- Thực hiện chế độ báo cáo và lưu trữ tài liệu theo quy định;\n- Chấp hành nội quy, quy định của cơ quan, đơn vị.\n\nNhiệm vụ thủ tục bay tại các sân bay Cam Ranh, Tuy Hòa, Liên Khương, Buôn Ma Thuột:\n- Nhận kế hoạch hoạt động bay ngày;\n- Nhận, kiểm tra, đối chiếu các nội dung trong kế hoạch bay không lưu;\n- Chấp thuận và phát kế hoạch bay không lưu trên mạng AMHS/AIS đến các cơ sở cung cấp dịch vụ không lưu có liên quan trong nước và quốc tế;\n- Nhận, xử lý, lưu trữ điện văn không lưu;\n- Nhận giờ cất cánh, hạ cánh và các thông tin bổ sung, thay đổi để phát các điện văn ATS phù hợp."
+},
+{
+  "id": "essay-844",
+  "q": "Anh/chị hãy cho biết các cơ sở cung cấp dịch vụ không lưu bao gồm những cơ sở nào?",
+  "type": "essay",
+  "answer": "Theo Điều 15 Thông tư 19/2017/BGTVT, các cơ sở cung cấp dịch vụ không lưu bao gồm:\n\na) Cơ sở điều hành bay bao gồm đài kiểm soát tại sân bay, cơ sở kiểm soát tiếp cận, trung tâm kiểm soát đường dài;\n\nb) Phòng thủ tục bay;\n\nc) Cơ sở, bộ phận đánh tín hiệu tại sân bay;\n\nd) Cơ sở thông báo, hiệp đồng bay;\n\nđ) Trạm thông báo bay tại sân bay."
+},
+{
+  "id": "essay-845",
+  "q": "Anh/chị hãy nêu quy trình làm thủ tục bay trực tiếp tại cơ sở ARO/AIS đối với chuyến bay khởi hành từ CHKQT Cam Ranh.",
+  "type": "essay",
+  "answer": "Theo Mục 5.2.1 – TLHDKT Cơ sở ARO/AIS Cam Ranh:\n\n- Nhận kế hoạch hoạt động bay ngày và các thông tin bổ sung, thay đổi so với kế hoạch hoạt động bay ngày (bao gồm cả các thông tin liên quan đến chuyến bay không thường lệ) của các chuyến bay khởi hành từ các sân bay trong khu vực trách nhiệm từ Trung tâm Quản lý luồng không lưu, lập thành file theo biểu mẫu quy định.\n\n- Đối với các chuyến bay khởi hành từ CHKQT Cam Ranh:\n  + Nhận dự thảo FPL từ người làm TTB, nhân viên ARO tiến hành kiểm tra, đối chiếu các nội dung trong dự thảo FPL so với kế hoạch hoạt động bay ngày.\n    * Nếu có sai sót hoặc thiếu nội dung trong dự thảo FPL thì yêu cầu người làm TTB chỉnh sửa, bổ sung.\n    * Nếu dự thảo FPL có nội dung thay đổi (loại tàu bay, đường bay…) so với kế hoạch hoạt động bay ngày, nhân viên ARO xác nhận lại với người làm TTB và với Kíp trực Thông báo Hiệp đồng bay thuộc Trung tâm Thông báo Hiệp đồng bay - Trung tâm QLLKL về nội dung thay đổi.\n    * Nếu chuyến bay không có trong kế hoạch hoạt động bay ngày thì nhân viên ARO thực hiện:\n      i) Yêu cầu người làm TTB cung cấp số phép bay do cơ quan có thẩm quyền cấp;\n      ii) Nếu người làm TTB không cung cấp được số phép bay, nhân viên ARO yêu cầu người nộp FPL liên hệ với cơ quan có thẩm quyền hoặc Trung tâm QLLKL để xử lý;\n      iii) Thông báo ngay cho Kíp trực Trung tâm QLLKL về việc chuyến bay đề nghị nộp FPL nhưng chưa có trong kế hoạch hoạt động bay ngày và cung cấp số phép bay do người làm cung cấp (nếu có).\n\n- Trong mọi trường hợp, không chấp thuận dự thảo FPL từ người làm TTB khi chuyến bay chưa có kế hoạch hoạt động bay ngày/ thông tin sửa đổi, bổ sung.\n\n- Đối với những chuyến bay thay đổi giờ bay sớm hơn so với giờ trong kế hoạch hoạt động bay ngày: Nhân viên ARO sẽ yêu cầu người làm TTB liên hệ trực tiếp với Kíp trực của Trung tâm QLLKL hoặc cơ quan có thẩm quyền. Nhân viên ARO chỉ thực hiện phát điện văn FPL sau khi nhận được điện văn thông báo thay đổi giờ từ Trung tâm QLLKL.\n\n- Sau khi chấp thuận dự thảo FPL, nhân viên ARO và người làm TTB nêu trên ký, ghi rõ giờ nộp, họ và tên vào FPL."
+},
+{
+  "id": "essay-846",
+  "q": "Anh/chị hãy nêu quy trình làm thủ tục bay trực tiếp tại cơ sở ARO/AIS đối với chuyến bay khởi hành từ Cảng HK Tuy Hòa, Buôn Ma Thuột, Liên Khương:",
+  "type": "essay",
+  "answer": "Đối với chuyến bay khởi hành từ Cảng HK Tuy Hòa, Buôn Ma Thuột, Liên Khương:\n\n- Nhận dự thảo FPL (đã có chữ ký xác nhận của tổ lái) từ Đài KSKL qua email, fax. Nhân viên ARO Cam Ranh tiến hành kiểm tra, đối chiếu các nội dung trong FPL so với kế hoạch hoạt động bay ngày;\n- Phối hợp với Đài KSKL liên quan để thông báo cho người làm TTB qua điện thoại có ghi âm về việc chấp thuận hoặc cần sửa đổi, bổ sung nội dung dự thảo FPL.\n\n* Ghi chú: Công tác phối hợp với người làm TTB (thông qua Đài KSKL) và Kíp trực của Trung tâm QLLKL thực hiện tương tự như với các chuyến bay khởi hành từ Cảng HKQT Cam Ranh.\n\n- Đối với những chuyến bay khởi hành từ sân bay Cam Ranh, hạ cánh tại các sân bay trong khu vực trách nhiệm của Trung tâm ARO/AIS Cam Ranh (Tuy Hòa, Buôn Ma Thuột, Liên Khương) và sau đó tiếp tục khởi hành từ các sân bay này, nhân viên ARO Cam Ranh đề nghị người làm TTB nộp luôn dự thảo FPL của chặng bay cất cánh từ các sân bay Tuy Hòa, Buôn Ma Thuột, Liên Khương cho ARO Cam Ranh để phát FPL. Khi nhận được thông báo từ Đài KSKL liên quan về nội dung có thay đổi so với FPL đã phát, nhân viên ARO Cam Ranh phát các điện văn ATS phù hợp.\n\n- Nhân viên ARO phát FPL đến các cơ sở ATS có liên quan. Đối với trường hợp có nhiều chuyến bay nộp FPL cùng một lúc thì chuyến bay nào có EOBT sớm hơn sẽ được ưu tiên phát trước, ngoại trừ chuyến bay chuyên cơ/chuyên khoang;\n- Sau khi phát FPL, nhân viên ARO lưu trữ FPL bản giấy theo thứ tự ngày trực và file mềm được lưu tự động trên hệ thống;\n- Trường hợp có phản hồi từ các đơn vị có liên quan về điện văn đã phát, nhân viên ARO kiểm tra, báo cáo kíp trưởng. Nếu thấy thông tin phản hồi phù hợp, cần phải chỉnh sửa FPL nhân viên ARO thông báo cho người làm TTB, TWR liên quan để xử lý. Trong trường hợp không liên lạc được với người làm TTB nêu trên vì đã rời khỏi cơ sở ARO/AIS thì nhân viên ARO chủ động phối hợp với nhân viên TWR để thông báo cho tổ lái biết thông qua thoại vô tuyến và yêu cầu nộp lại FPL;\n- Nhân viên ARO thực hiện phát điện văn DLA, CHG, CNL,... trong trường hợp nhận được thông báo chuyến bay có thay đổi (hủy chuyến, các chuyến bay khởi hành không thực hiện đúng FPL đã dự định mà chuyến bay đó có trì hoãn vượt quá 30 phút so với giờ EOBT ghi trong FPL đối với chuyến bay có kiểm soát và 60 phút đối với chuyến bay không có kiểm soát,…), từ người làm TTB hoặc TWR liên quan;\n- Ngay sau khi nhận được giờ cất cánh thực tế (ATD) của tàu bay từ các TWR liên quan, không muộn hơn 03 phút từ thời điểm nhận thông tin, nhân viên ARO soạn thảo và phát điện văn cất cánh qua mạng AFTN/AMHS/AIS đến các cơ sở ATS có liên quan trong nước và quốc tế;\n- Trong trường hợp nhận được thông tin các chuyến bay đã cất cánh nhưng phải quay lại sân bay khởi hành hạ cánh vì lý do đặc biệt về thời tiết, kỹ thuật,…, nhân viên ARO thông báo cho đội Điều phối khai thác - Phòng ĐHSB Cam Ranh - Cảng HKQT Cam Ranh (đối với các chuyến bay về hạ cánh sân bay Cam Ranh), đồng thời phát điện văn ARR cho sân bay nơi tàu bay dự định đến và các cơ sở ATS có liên quan.\n\n* Ghi chú: Quy trình trên cũng được áp dụng đối với các chuyến bay chuyên cơ/chuyên khoang. Ngoài ra, nhân viên ARO thông báo kịp thời các điện văn liên quan đến chuyến bay chuyên cơ/chuyên khoang cho: Cảng vụ Hàng không CHKQT Cam Ranh, Đội Điều phối khai thác/Trực ban Điều hành sân bay - Phòng ĐHSB Cam Ranh - Cảng HKQT Cam Ranh."
+},
+{
+  "id": "essay-847",
+  "q": "Anh/chị hãy nêu quy trình đối với chuyến bay đến?",
+  "type": "essay",
+  "answer": "Theo mục 5.2.2 TL HDKT cơ sở ARO/AIS Cam Ranh\n\nQuy trình cung cấp dịch vụ ARO đối với chuyến bay đến:\n- Nhận kế hoạch hoạt động bay ngày và các thông tin bổ sung, thay đổi so với kế hoạch hoạt động bay ngày (bao gồm cả các thông tin liên quan đến chuyến bay không thường lệ) từ Trung tâm Quản lý luồng không lưu, lập thành file đối với chuyến bay đến;\n- Nhận các điện văn bổ sung, thay đổi, tăng chuyến hoặc nhận được thông báo liên quan những chuyến bay đến về muộn hoặc điện văn liên quan đến những chuyến bay không thường lệ v.v, nhân viên cơ sở ARO/AIS thông báo kịp thời cho các nơi liên quan (đội Điều phối khai thác - Phòng ĐHSB Cam Ranh - Cảng HKQT Cam Ranh, TWR Cam Ranh...);\n- Nhận, khai thác FPL, điện văn cất cánh của các chuyến bay trên hệ thống AIM/AIS/AMHS;\n- Nhận giờ hạ cánh thực tế của các chuyến bay đến từ TWR, phát điện văn hạ cánh qua mạng AMHS/AIS đến các cơ sở ATS có liên quan trong nước và quốc tế (thời gian phát điện văn hạ cánh không được muộn hơn 05 phút sau khi nhận được thông tin).\n\n* Ghi chú: Quy trình trên cũng được áp dụng đối với các chuyến bay chuyên cơ/chuyên khoang. Ngoài ra, nhân viên ARO thông báo kịp thời các điện văn liên quan đến chuyến bay chuyên cơ/chuyên khoang cho: Cảng vụ Hàng không CHK Cam Ranh, Đội Điều phối khai thác/trực ban Điều hành sân bay - Phòng ĐHSB Cam Ranh - Cảng HKQT Cam Ranh."
+},
+{
+  "id": "essay-848",
+  "q": "Anh/chị hãy nêu vị trí địa lý, điểm quy chiếu, mức cao sân bay nơi anh/chị đang công tác?",
+  "type": "essay",
+  "answer": "Theo Quy chế bay trong khu vực sân bay Cam Ranh ban hành theo Quyết định số 1566/QĐ-CHK ngày 18/7/2019:\n\n- Vị trí sân bay: Sân bay Cam Ranh nằm trên bán đảo Cam Ranh thuộc địa bàn Phường Cam Nghĩa, thành phố Cam Ranh, tỉnh Khánh Hòa. Phía Bắc cách thành phố Nha Trang 27km, phía Nam cách thị trấn Cam Ranh 10km.\n\n- Điểm quy chiếu sân bay: Là giao điểm của tim đường CHC 02L/20R và tim đường lăn W4, có tọa độ địa lý: 11o59’43.69”N - 109o13’06.26”E (WGS-84).\n\n- Múi giờ: +7.\n\n- Độ lệch từ tại khu vực sân bay: 01º Tây.\n\n- Mức cao sân bay: 14 m (so với mực nước biển trung bình - MSL).\n  + Mức cao ngưỡng đường CHC 02L: 6m.\n  + Mức cao ngưỡng đường CHC 20R: 14,1m.\n  + Mức cao ngưỡng đường CHC 02R: 4,6m.\n  + Mức cao ngưỡng đường CHC 20L: 10,6m."
+},
+{
+  "id": "essay-849",
+  "q": "Anh/chị hãy cho biết các số liệu và đặc tính của đường CHC tại sân bay anh/chị đang công tác?",
+  "type": "essay",
+  "answer": "Theo AIP Việt Nam, số liệu và đặc tính của đường CHC tại sân bay Cam Ranh như sau:\n\n1. Đường CHC 02L:\n- Hướng thực: 019°\n- Kích thước: 3.051 x 45 m\n- Sức chịu tải: 510/R/B/X/U – Bê tông xi măng\n- Tọa độ ngưỡng: 115906.25N - 1091253.28E\n- Mức cao ngưỡng: 6.0 m\n- Độ dốc RWY-SWY: 0.25%\n- Kích thước đoạn dừng: 60 x 45 m\n- Kích thước khoảng trống: 200 x 150 m\n- Kích thước dải bảo hiểm: 3.291 x 300 m\n- Kích thước khu vực an toàn cuối đường CHC: 90 x 90 m\n- OFZ: Không\n\n2. Đường CHC 20R:\n- Hướng thực: 199°\n- Kích thước: 3.051 x 45 m\n- Sức chịu tải: 510/R/B/X/U – Bê tông xi măng\n- Tọa độ ngưỡng: 120040.24N - 1091325.86E\n- Mức cao ngưỡng: 14.1 m\n- Độ dốc RWY-SWY: 0.25%\n- Kích thước đoạn dừng: 60 x 45 m\n- Kích thước khoảng trống: 200 x 150 m\n- Kích thước dải bảo hiểm: 3.291 x 300 m\n- Kích thước khu vực an toàn cuối đường CHC: 90 x 90 m\n- OFZ: Không\n\n3. Đường CHC 02R:\n- Hướng thực: 019°\n- Kích thước: 3.048 x 45 m\n- Sức chịu tải: 650/R/A/W/U – Bê tông xi măng\n- Tọa độ ngưỡng: 115853.85N - 1091259.63E\n- Mức cao ngưỡng: 4.6 m\n- Độ dốc RWY-SWY: 0.285%\n- Kích thước đoạn dừng: 100 x 60 m\n- Kích thước khoảng trống: 200 x 150 m\n- Kích thước dải bảo hiểm: 3.368 x 300 m\n- Kích thước khu vực an toàn cuối đường CHC: 130 x 90 m\n- OFZ: Không\n\n4. Đường CHC 20L:\n- Hướng thực: 199°\n- Kích thước: 3.048 x 45 m\n- Sức chịu tải: 650/R/A/W/U – Bê tông xi măng\n- Tọa độ ngưỡng: 120027.73N - 1091332.16E\n- Mức cao ngưỡng: 10.6 m\n- Độ dốc RWY-SWY: 0.285%\n- Kích thước đoạn dừng: 100 x 60 m\n- Kích thước khoảng trống: 200 x 150 m\n- Kích thước dải bảo hiểm: 3.368 x 300 m\n- Kích thước khu vực an toàn cuối đường CHC: 130 x 90 m\n- OFZ: Không"
+},
+{
+  "id": "essay-850",
+  "q": "Anh/chị hãy trình bày các cự ly công bố của các đường CHC tại sân bay Cam Ranh?",
+  "type": "essay",
+  "answer": "Theo AIP Việt Nam, cự ly công bố của các đường CHC 02R/20L và 02L/20R tại sân bay Cam Ranh như sau:\n\n1. Đường CHC 02L:\n- Cự ly chạy đà cất cánh (TORA): 3051 m\n- Cự ly có thể cất cánh (TODA): 3251 m\n- Cự ly có thể dừng khẩn cấp (ASDA): 3111 m\n- Cự ly có thể hạ cánh (LDA): 3051 m\n\n2. Đường CHC 20R:\n- Cự ly chạy đà cất cánh (TORA): 3051 m\n- Cự ly có thể cất cánh (TODA): 3251 m\n- Cự ly có thể dừng khẩn cấp (ASDA): 3111 m\n- Cự ly có thể hạ cánh (LDA): 3051 m\n\n3. Đường CHC 02R:\n- Cự ly chạy đà cất cánh (TORA): 3048 m\n- Cự ly có thể cất cánh (TODA): 3048 m\n- Cự ly có thể dừng khẩn cấp (ASDA): 3148 m\n- Cự ly có thể hạ cánh (LDA): 3048 m\n\n4. Đường CHC 20L:\n- Cự ly chạy đà cất cánh (TORA): 3048 m\n- Cự ly có thể cất cánh (TODA): 3048 m\n- Cự ly có thể dừng khẩn cấp (ASDA): 3148 m\n- Cự ly có thể hạ cánh (LDA): 3048 m"
+},
+{
+  "id": "essay-851",
+  "q": "Anh/chị hãy nêu những đặc điểm định hướng trong khu vực sân bay theo quy chế sân bay Cam Ranh?",
+  "type": "essay",
+  "answer": "Sân bay Cam Ranh nằm trong thung lũng có các đỉnh và dãy núi thấp, độ cao gần 1000m bao quanh trên bán đảo Cam Ranh. Các đặc điểm định hướng trong khu vực sân bay gồm:\n\n- Phía Bắc: Có núi Cầu Hin cao trung bình khoảng 1000m, xa hơn là thành phố Nha Trang và sân bay Nha Trang với phương vị 352°, cự ly 27km.\n- Phía Đông: Là biển với đường bờ khúc khuỷu, nhiều đồi núi nhô ra tạo thành các đầm và vùng vịnh; ven bờ có núi đất, ngoài khơi có Hòn Ngoại và Hòn Nội cao 102m.\n- Phía Tây: Là dãy núi Nam Trường Sơn với độ cao trung bình 400–500m bao quanh, có núi Tà Lua cao 915m.\n- Phía Nam và Đông Nam: Có các hòn núi ven bán đảo; phía Nam cách 12km là thành phố Cam Ranh, cách sân bay 49km là sân bay Phan Rang; có quốc lộ 1A và đường sắt Bắc Nam chạy song song với đường bờ biển."
+},
+{
+  "id": "essay-852",
+  "q": "Anh/chị hãy cho biết cách điền tại trường 16 của kế hoạch bay không lưu (Sân bay đến, tổng thời gian dự tính bay, sân bay dự bị hạ cánh)?",
+  "type": "essay",
+  "answer": "Theo Quyết định số 415/QĐ-CHK ngày 15/3/2018:\n\n- **Sân bay đến**: Ghi 04 ký tự theo Doc.7910. Nếu sân bay đến không có trong chỉ danh 04 ký tự thì điền ZZZZ và ghi rõ tên, vị trí sân bay tại Mục 18, sau DEST/. Sau đó điền tổng thời gian dự tính bay (không có khoảng cách).\n\n- **Tổng thời gian dự tính bay**: Là tổng số thời gian dự kiến bay. Đối với kế hoạch bay nhận được từ tàu bay đang bay, thời gian này tính từ điểm đầu tiên của đường bay cho đến điểm kết thúc ghi trong kế hoạch bay.\n\n- **Sân bay dự bị hạ cánh**: Ghi 04 ký tự theo Doc.7910. Nếu sân bay không có trong chỉ danh 04 ký tự thì điền ZZZZ và ghi rõ tên, vị trí sân bay tại Mục 18, sau ALTN/. Có thể điền tối đa 02 sân bay dự bị, tên các sân bay này phải có khoảng cách phân tách."
+},
+{
+  "id": "essay-853",
+  "q": "Anh/chị hãy cho biết RVSM là gì? Cách nhận biết kế hoạch bay RVSM và Non-RVSM? Tại Việt Nam được áp dụng từ mực bay nào đến mực bay nào?",
+  "type": "essay",
+  "answer": "RVSM: Reduce Vertical Separation Minimum (giảm phân cách cao tối thiểu).\n- Kế hoạch bay của tàu bay RVSM có ghi chữ W tại mục 10 của bản kế hoạch bay chi tiết.\n- Kế hoạch bay lặp lại của tàu bay RVSM có ghi chữ “EQPT/W” tại mục Q của kế hoạch bay chi tiết.\n- Kế hoạch bay của tàu bay Non-RVSM có ghi chữ “STS/Non-RVSM” tại mục 18 của kế hoạch bay chi tiết, cùng với mực bay dự kiến trong vùng trời RVSM. Yêu cầu tổ bay hoặc người được uỷ quyền hợp pháp làm kế hoạch bay ở mực bay Non-RVSM dưới mực bay FL290 hoặc trên FL410.\n- Tại Việt Nam áp dụng từ mực bay FL290 (8850m) đến FL410 (25000m) phân cách 1000ft trên các đường bay R474, B465, A202, W1, W2, W14."
+},
+{
+  "id": "essay-854",
+  "q": "Anh/chị hãy cho biết sân bay dự bị là gì và có bao nhiêu loại sân bay dự bị?",
+  "type": "essay",
+  "answer": "Theo Nghị định 125/2015/NĐ-CP:\nSân bay dự bị: là sân bay mà một tàu bay có thể đến, hạ cánh khi không thể hoặc không nên đến, hạ cánh tại sân bay dự định hạ cánh, bao gồm:\n- Sân bay dự bị cất cánh: là sân bay mà tại đó tàu bay có thể hạ cánh khi cần thiết ngay sau khi cất cánh và không thể sử dụng sân bay cất cánh;\n- Sân bay dự bị trên đường bay: là sân bay mà tại đó tàu bay có thể hạ cánh sau khi gặp tình huống khẩn nguy hoặc bất thường trong quá trình bay đường dài;\n- Sân bay dự bị hạ cánh: là sân bay mà tàu bay có thể đến khi không thể hoặc không nên hạ cánh tại sân bay dự định hạ cánh."
+},
+{
+  "id": "essay-855",
+  "q": "Anh/chị hãy cho biết cơ sở AIS nơi anh/chị đang công tác đã ký VBHĐ/phối hợp với các đơn vị nào tính đến thời điểm hiện tại, hãy kể tên?",
+  "type": "essay",
+  "answer": "VBHĐ bảo đảm dịch vụ Thông báo tin tức hàng không giữa TCTQLBVN và Tổng công ty Cảng HKVN - CTCP;\nVBHĐ bảo đảm dịch vụ tại Cảng HKQT Cam Ranh giữa Trung tâm TBTTHK - TCTQLBVN và Cảng HKQT Cam Ranh - Tổng công ty Cảng HKVN - CTCP;\nVBHĐ bảo đảm dịch vụ giữa Trung tâm TBTTHK và Trung tâm Quản lý luồng không lưu;\nVBHĐ bảo đảm dịch vụ giữa Công ty Quản lý bay miền Nam và Trung tâm TBTTHK;\nVBHĐ bảo đảm dịch vụ giữa Công ty Quản lý bay miền Trung và Trung tâm TBTTHK;\nVBHĐ bảo đảm dịch vụ giữa Trung tâm KTHK và Trung tâm TBTTHK;\nVBPH bảo đảm việc gửi và nhận kế hoạch bay không lưu giữa Lữ đoàn không quân 918 và Tổng công ty Quản lý bay Việt Nam;\nVăn bản phối hợp bảo đảm dịch vụ làm thủ tục bay từ xa cho các chuyến bay khởi hành từ các cảng hàng không, sân bay giữa Trung tâm TBTTHK - TCTQLBVN và Trung tâm điều hành khai thác - TCT Hàng không Việt Nam;\nVăn bản phối hợp bảo đảm dịch vụ làm thủ tục bay từ xa cho các chuyến bay khởi hành từ sân bay quốc tế Cam Ranh giữa Trung tâm TBTTHK - TCTQLBVN với các hãng hàng không liên quan (Vietjet Air, Pacific Airlines, Bamboo Airways);\nVăn bản phối hợp bảo đảm dịch vụ làm thủ tục bay từ xa cho các chuyến bay khởi hành từ các cảng hàng không, sân bay và bãi cất, hạ cánh giữa Trung tâm TBTTHK - TCTQLBVN và hãng hàng không Hải Âu;\nVBPH bảo đảm dịch vụ làm thủ tục bay từ xa cho các chuyến bay khởi hành từ các cảng hàng không giữa Trung tâm TBTTHK và Công ty cổ phần hàng không Bầu trời xanh;\nVBPH bảo đảm dịch vụ làm thủ tục bay từ xa cho các chuyến bay khởi hành từ các cảng hàng không, sân bay giữa Trung tâm TBTHK và Công ty Trực thăng miền Bắc;\nVBPH bảo đảm dịch vụ làm thủ tục bay cho các chuyến bay khởi hành từ các cảng hàng không quốc tế Tân Sơn Nhất, Đà Nẵng và Cam Ranh giữa Trung tâm TBTTHK - TCTQLBVN và Công ty Cổ phần Phục vụ mặt đất Sài Gòn (SAGS);\nVBPH bảo đảm dịch vụ giữa TTTBTTHK và Công ty CPHK Hành tinh xanh – GPA;\nVBPH bảo đảm dịch vụ làm thủ tục bay từ xa cho các chuyến bay khởi hành từ các Cảng HK, sân bay quân sự, bãi cất/hạ cánh, sân bay chuyên dùng giữa TT TBTTHK và Công ty trực thăng miền Nam;\nCác văn bản thỏa thuận khác có liên quan đến ARO/AIS."
+},
+{
+  "id": "essay-856",
+  "q": "Anh/chị hãy cho biết khi ở sân bay có nhiều loại máy bay khác nhau cùng hoạt động thì thứ tự ưu tiên được sắp xếp như thế nào đối với máy bay khi cất cánh?",
+  "type": "essay",
+  "answer": "Theo Quyết định 100 của BQP: Khi ở sân bay có nhiều loại máy bay khác nhau cùng hoạt động thì thứ tự ưu tiên được sắp xếp như sau:\n1. Máy bay cất cánh chiến đấu, cất cánh làm nhiệm vụ diễn tập hiệp đồng quân binh chủng.\n2. Máy bay làm nhiệm vụ chuyên cơ.\n3. Máy bay tìm kiếm cứu nạn, cấp cứu y tế.\n4. Máy bay làm nhiệm vụ khắc phục thiên tai.\n5. Máy bay thực hiện cùng một nhiệm vụ trong tốp bay.\n6. Máy bay mà thời gian làm việc của động cơ ở mặt đất hạn chế.\n7. Máy bay chở khách.\n8. Máy bay huấn luyện.\n9. Máy bay có tốc độ lớn hơn máy bay khác."
+},
+{
+  "id": "essay-857",
+  "q": "Anh/chị hãy trình bày quy định về Sân bay dự bị và lựa chọn sân bay dự bị?",
+  "type": "essay",
+  "answer": "Theo Điều 328, 330 Thông tư 19/2017/TT-BGTVT:\n\n* Sân bay dự bị:\n1. Sân bay dự bị bao gồm sân bay dự bị cất cánh, sân bay dự bị trên đường bay, sân bay dự bị hạ cánh.\n2. Thủ tục công bố sân bay dự bị thực hiện theo Điều 29 của Nghị định số 125/2015/NĐ-CP ngày 04/12/2015 của Chính phủ quy định chi tiết về quản lý hoạt động bay. Các thông tin công bố bao gồm: kiểu loại sân bay dự bị, số liệu đường cất hạ cánh, đường lăn, sân đỗ, dịch vụ bảo đảm hoạt động bay được cung cấp, hệ thống dẫn đường và tần số liên lạc của cơ sở điều hành bay tại sân bay dự bị, cấp độ dịch vụ khẩn nguy sân bay, chế độ hoạt động và điều kiện sử dụng sân bay dự bị.\n3. Cục Hàng không Việt Nam tổ chức công bố trong nước và quốc tế về sân bay dự bị sử dụng cho hoạt động bay dân dụng tại Việt Nam.\n\n* Lựa chọn sân bay dự bị:\n1. Người khai thác tàu bay căn cứ danh mục sân bay dự bị đã được Cục Hàng không Việt Nam công bố, điều kiện khai thác thực tế của hạ tầng cơ sở, hệ thống kỹ thuật, thiết bị, dịch vụ bảo đảm hoạt động bay và các dịch vụ liên quan khác tại các sân bay đó, khả năng khai thác thực tế của tàu bay và tổ lái, chủ động lựa chọn sân bay dự bị cất cánh, dự bị trên đường bay và dự bị hạ cánh khi lập kế hoạch bay cho các chuyến bay nhằm đảm bảo an toàn và hiệu quả. Đồng thời, thiết lập tiêu chuẩn khai thác tối thiểu về thời tiết cho cất cánh và hạ cánh không thấp hơn tiêu chuẩn do Cục Hàng không Việt Nam và nhà chức trách hàng không có sân bay dự bị liên quan thiết lập.\n2. Đối với chuyến bay nội địa, người khai thác tàu bay sử dụng sân bay nội địa làm sân bay dự bị chính; trong trường hợp không thể chọn được sân bay nội địa làm dự bị, có thể sử dụng sân bay nước ngoài làm sân bay dự bị hạ cánh và chịu trách nhiệm về quyết định của mình."
+},
+{
+  "id": "essay-858",
+  "q": "Anh/chị hãy cho biết Người khai thác/tổ lái dự kiến sử dụng phương thức SIDs/STARs RNP 1 và RNP APCH tại sân bay Cam Ranh phải điền các ký hiệu gì mô tả năng lực dẫn đường phù hợp trong kế hoạch bay không lưu (trường 10a và trường 18 PBN/)?",
+  "type": "essay",
+  "answer": "Theo AIP Việt Nam, hiện tại Cam Ranh đang áp dụng phương thức bay SIDs/STARs RNP1 và RNP APCH:\n\n- Người khai thác/tổ lái dự kiến sử dụng phương thức SIDs/STARs RNP1 và RNP APCH tại sân bay Cam Ranh phải điền các ký hiệu mô tả năng lực dẫn đường phù hợp trong kế hoạch bay không lưu như sau:\n  + Điền R (PBN approved) vào mục 10a;\n  + Điền O1 (RNP 1 all permitted sensors) hoặc O2 (RNP 1 GNSS), S1 (RNP APCH) hoặc S2 (RNP APCH with BARO-VNAV) vào sau PBN/ tại mục 18;\n  + Xác định trang thiết bị hỗ trợ từng loại năng lực dẫn đường tại mục 18 và điền vào mục 10a (G, D, I đối với O1 hoặc G đối với O2, S1 và S2)."
+},
+{
+  "id": "essay-859",
+  "q": "Anh/chị hãy diễn giải tóm tắt phương thức cất cánh tiêu chuẩn bằng thiết bị PTH 1A đường CHC 02L/R sân bay Cam Ranh?",
+  "type": "essay",
+  "answer": "PHANTHIET ONE ALPHA DEPARTURE (PTH 1A): Sau khi khởi hành, giữ hướng đường CHC cho đến khi vượt qua độ cao 600m, sau đó vòng phải trong phạm vi 10 NM tính từ đài VOR CRA, bay trực tiếp đến CRA tại hoặc trên độ cao 1800m, rồi tiến nhập Radian 227 của CRA đi SUIDA. Yêu cầu tỷ lệ bay lên tối thiểu 5.5% cho đến khi đạt độ cao 1800m."
+},
+{
+  "id": "essay-860",
+  "q": "Anh/chị hãy liệt kê những dữ liệu trọng yếu liên quan đến cảng hàng không, sân bay?",
+  "type": "essay",
+  "answer": "Theo Phụ ước 14, Tập 1, Chương 2, các dữ liệu trọng yếu liên quan đến cảng hàng không, sân bay bao gồm:\n\n- Điểm quy chiếu sân bay;\n- Mức cao sân bay và mức cao đường cất hạ cánh;\n- Nhiệt độ trung bình sân bay;\n- Kích thước sân bay và thông tin liên quan;\n- Đường CHC;\n- Dải bay, dải bảo hiểm cuối đường CHC (RESA), đoạn dừng (dải hãm phanh);\n- Đường lăn;\n- Sân đỗ;\n- Ranh giới kiểm soát không lưu;\n- Đoạn trống;\n- Các phương tiện, trang bị trợ giúp tiếp cận bằng mắt, vạch dấu và đèn chiếu sáng của đường CHC, đường lăn, sân đỗ, điểm dừng chờ…;\n- Vị trí và tần số vô tuyến của bất kỳ điểm kiểm tra (checkpoint) VOR;\n- Vị trí, tần số hệ thống ILS;\n- Sức chịu tải;\n- Vị trí kiểm tra máy đo độ cao trước khi bay;\n- Các cự ly được công bố;\n- Tình trạng khu vực hoạt động và các trang thiết bị liên quan;\n- Cứu nạn và chữa cháy;\n- Hệ thống chỉ dẫn độ dốc tiếp cận bằng mắt;\n- Phối hợp giữa các cơ sở cung cấp dịch vụ thông báo tin tức hàng không và nhà chức trách sân bay."
+},
+{
+  "id": "essay-861",
+  "q": "Anh/chị hãy nêu Trách nhiệm của Trung tâm Thông báo tin tức hàng không đối với Cảng HKQT Cam Ranh trong công tác thủ tục bay?",
+  "type": "essay",
+  "answer": "Theo Văn bản hiệp đồng (VBHĐ), Trung tâm ARO/AIS Cam Ranh có trách nhiệm:\n\n- Cung cấp điện văn không lưu/kế hoạch bay không lưu của các chuyến bay khởi hành từ Cảng HKQT Cam Ranh cùng với các thay đổi (nếu có), điện văn ARR của các chuyến bay đến Cảng HKQT Cam Ranh cho Đội điều phối khai thác - Phòng ĐHSB Cảng HKQT Cam Ranh qua mạng AFTN/AMHS;\n- Phát điện văn cất/hạ cánh của các chuyến bay hoạt động tại Cảng HKQT Cam Ranh;\n- Thông báo báo cáo sau chuyến bay của tổ lái và các tin tức có thể ảnh hưởng đến an toàn bay trong phạm vi trách nhiệm của Cảng HKQT Cam Ranh cho Đội điều phối khai thác;\n- Cung cấp cho Trực ban Điều hành sân bay thông tin về chuyến bay gặp tình huống khẩn nguy hạ cánh tại Cảng HKQT Cam Ranh và các thông tin tàu bay bị sự cố khác khi nhận được điện văn hoặc thông báo của các tổ chức có liên quan;\n- Thông báo cho Đội điều phối khai thác/Trực ban Điều hành khai thác sân bay: các tin tức về chuyến bay quay lại sau khi cất cánh, chuyến bay chuyển hướng hạ cánh/đi sân bay dự bị, bay chờ và các thông tin bất thường khác ngay sau khi nhận được từ cơ quan không lưu có liên quan."
+},
+{
+  "id": "essay-862",
+  "q": "Anh/chị hãy cho biết phương thức nộp và nhận FPL tại TT ARO Cam Ranh? (Theo QĐ 1108/CHK ngày 23/7/2025, hiệu lực 04/9/2025)",
+  "type": "essay",
+  "answer": "Theo QĐ 1108/CHK ngày 23/7/2025 (hiệu lực 04/9/2025):\n\nII. Nộp FPL\n1. Các phương thức nộp FPL (04 phương thức):\n- Qua cổng thông tin AviWeb; hoặc\n- Qua AFS; hoặc\n- Qua email; hoặc\n- Nộp trực tiếp tại cơ sở thủ tục bay.\n\n1.1 Qua cổng thông tin AviWeb (hệ thống AIM, dùng internet):\n- Người nộp FPL phải đăng ký tài khoản AviWeb.\n- Hướng dẫn đăng ký, nộp FPL và điện văn ATS qua AviWeb tại Phụ lục III.\n\n1.2 Qua AFS:\n- FPL nộp đến cơ sở thủ tục bay theo phân định trách nhiệm tại Phụ lục IV.\n- Gửi tới địa chỉ AFS của cơ sở thủ tục bay (Phụ lục V).\n\n1.3 Qua email:\n- Chỉ thực hiện khi không thể nộp qua AviWeb hoặc AFS.\n- FPL gửi tới cơ sở thủ tục bay theo phân định trách nhiệm (Phụ lục IV) và địa chỉ email (Phụ lục V).\n- Chỉ chấp thuận từ các địa chỉ AFS/email đã đăng ký với VNAIC.\n- Đăng ký gửi tới email: ais.nghiepvu@vatm.vn, mẫu tại: https://bit.ly/FPL_REG\n- Xử lý trong 05 ngày làm việc kể từ khi nhận yêu cầu và có xác nhận từ VNAIC.\n\n1.4 Nộp trực tiếp tại cơ sở thủ tục bay:\n- Có thể nộp trực tiếp tại các cơ sở thủ tục bay đặt tại 5 Cảng HKQT: Nội Bài, Đà Nẵng, Cam Ranh, Tân Sơn Nhất, Phú Quốc.\n- Áp dụng cho tất cả các chuyến bay khởi hành từ các cảng hàng không, sân bay quân sự, bãi/dải cất hạ cánh trong lãnh thổ Việt Nam.\n- Với các sân bay/địa điểm không có cơ sở thủ tục bay, FPL nộp theo các phương thức AviWeb, AFS hoặc email."
+},
+{
+  "id": "essay-863",
+  "q": "Anh/chị hãy nêu Trách nhiệm của Trung tâm ARO/AIS CR thuộc TTTBTTHK đối với Trung tâm Thông báo Hiệp đồng bay thuộc Trung tâm QLLKL?",
+  "type": "essay",
+  "answer": "Theo VBHĐ:\n\n* Trách nhiệm của Trung tâm ARO/AIS Cam Ranh:\n- Thông báo và cung cấp:\n  + Các điện văn kế hoạch bay không lưu (FPL), điện văn khởi hành (DEP), điện văn hạ cánh (ARR), các điện văn thay đổi (CHG), trì hoãn (DLA), hủy bỏ (CNL) của Việt Nam;\n  + Khi có bất cứ sai lệch nào trong kế hoạch hoạt động bay ngày;\n  + Các tin tức về hoạt động bay chuyên cơ, chuyên khoang khi nhận được từ các cơ quan liên quan.\n\n- Đối với chuyến bay thay đổi giờ bay sớm hơn so với kế hoạch hoạt động bay ngày (nhưng vẫn trong khung giờ hiệu lực của phép bay, trước 12 giờ so với giờ ghi trong phép bay): Nhân viên Trung tâm ARO/AIS CR yêu cầu người làm thủ tục bay liên hệ trực tiếp với kíp trực Thông báo Hiệp đồng bay (TBHĐB).\n\n- Thông tin các chuyến bay khi người làm thủ tục bay nộp dự thảo FPL nhưng ARO/AIS CR chưa nhận được thông báo trong kế hoạch hoạt động bay ngày:\n  + Nếu cung cấp được số phép bay: Nhân viên ARO/AIS CR thông báo số hiệu chuyến bay cho kíp trực TBHĐB để kiểm tra, đối chiếu.\n  + Nếu không cung cấp được số phép bay: Nhân viên ARO/AIS CR yêu cầu người làm thủ tục bay liên hệ với cơ sở TBHĐB.\n\n- Đối với chuyến bay được cấp phép hoạt động trên các đường bay có điều kiện: ARO/AIS CR khi nhận được FPL có trách nhiệm kiểm tra, đối chiếu với kế hoạch hoạt động bay ngày, đồng thời thông báo cho TT TBHĐB về đường bay có điều kiện trong FPL để TT TBHĐB phối hợp với cơ quan quân sự. TT TBHĐB thông báo lại cho ARO/AIS CR đường bay có điều kiện được phép khai thác để ARO/AIS CR chấp thuận FPL.\n\n- Đối với trường hợp người làm thủ tục bay nộp dự thảo FPL có thay đổi đường bay khác hoặc thay đổi giờ bay so với kế hoạch hoạt động bay ngày: Nhân viên ARO/AIS CR liên hệ với TT TBHĐB để phối hợp giải quyết.\n\n- Phối hợp thực hiện khi áp dụng phương thức khai thác Quản lý luồng không lưu (ATFM) đa điểm nút tại các sân bay."
+},
+{
+  "id": "essay-864",
+  "q": "Anh/chị hãy nêu Phương thức ứng phó không lưu ngắn hạn cho Cơ sở ARO Cam Ranh?",
+  "type": "essay",
+  "answer": "Theo Mục 4.5.4 – TLHDKT Cơ sở ARO/AIS Cam Ranh:\n\nỨng phó ngắn hạn:\n- Nhân viên ARO nhanh chóng sử dụng các phương tiện thông tin hiện có (hoặc nhờ hỗ trợ) để thông báo cho APP/TWR Cam Ranh và đại diện các hãng hàng không đang tham gia khai thác.\n- Sử dụng vị trí ứng phó là APP Cam Ranh để nhận và cung cấp thông tin trực tiếp cho người nộp FPL; tạm thời sử dụng vị trí đầu cuối AMHS của APP Cam Ranh để phát chuyển điện văn ATS qua hệ thống AMHS.\n- Các nhân viên ARO di chuyển về vị trí ứng phó và yêu cầu giải trợ điện văn về APP Cam Ranh (địa chỉ VVCRZAZX), thực hiện ủy quyền cho APP Cam Ranh phát điện văn (do nhân viên ARO soạn thảo) hoặc ủy quyền cho cơ sở ARO Đà Nẵng phát điện văn.\n- Kíp trực ứng phó chịu trách nhiệm thông báo cho các cơ quan, đơn vị liên quan qua các phương tiện liên lạc: đường dây nóng, điện thoại, AMHS/AIS/AIM, v.v… về việc thực hiện kế hoạch ứng phó ngắn hạn."
+},
+{
+  "id": "essay-865",
+  "q": "Anh/chị hãy liệt kê trường hợp bất thường và các bước xử lý xảy ra trong quá trình cung cấp dịch vụ?",
+  "type": "essay",
+  "answer": "Theo mục 4.5 TL HDKT cơ sở ARO/AIS Cam Ranh:\n\n* Các trường hợp bất thường:\n- Trường hợp 1: Sự cố hỏng, mất đường truyền hoặc lỗi một trong các hệ thống trang thiết bị AIS/AFTN/AMHS/NOTAM bán tự động hoặc các trang thiết bị khác (máy văn phòng, fax, điện thoại, đường truyền internet…), chỉ gián đoạn trong thời gian ngắn và có thể khắc phục/giải trợ ngay.\n- Trường hợp 2: Sự cố hỏng, mất đường truyền hoặc lỗi hệ thống trang thiết bị AIS/AFTN/AMHS hoặc NOTAM bán tự động, gây gián đoạn cung cấp dịch vụ trong thời gian dài. Bao gồm sự cố cháy nổ hệ thống trang thiết bị kỹ thuật; cháy nổ vị trí làm việc; sự cố thiên tai (mất nhiều thời gian sửa chữa, khắc phục).\n\n* Các bước xử lý:\n- Đối với Trường hợp 1:\n  + Bước 1: Kíp trưởng/Nhân viên trực kiểm tra tình trạng thiết bị xảy ra lỗi, báo cáo cán bộ trực giám sát và thông báo cho Phòng Bảo đảm kỹ thuật để khắc phục theo quy định.\n  + Bước 2: Chuyển sang khai thác trang thiết bị dự phòng; nếu không sử dụng được, yêu cầu đơn vị khác giải trợ.\n  + Bước 3: Ghi chép vào Sổ nhật ký giao ca trực.\n  *Ghi chú:* Thực hiện báo cáo bằng văn bản khi có yêu cầu, kèm theo FPL, điện văn NOTAM, điện văn sự vụ hoặc sản phẩm đã cung cấp.\n  *Lưu ý:* Thứ tự ưu tiên sử dụng trang thiết bị dự phòng:\n    1. Khi hệ thống AIM gặp sự cố: sử dụng hệ thống AIS để xử lý FPL, điện văn ATS, tạo PIB, khai thác NOTAM.\n    2. Khi hệ thống AIS gặp sự cố: sử dụng hệ thống NOTAM bán tự động để tạo PIB, sử dụng hệ thống AMHS để xử lý FPL và điện văn ATS.\n\n- Đối với Trường hợp 2:\n  + Bước 1: Kíp trưởng/Nhân viên trực báo cáo Trưởng cơ sở và phối hợp với các cơ quan, đơn vị liên quan (Cảng HKQT Cam Ranh, Công ty Quản lý bay miền Trung, Phòng Bảo đảm kỹ thuật – Trung tâm TBTTHK…) để kịp thời khắc phục (dập lửa, di chuyển trang thiết bị, tài liệu…).\n  + Bước 2: Thông báo ngay cho cá nhân, đơn vị liên quan về tình trạng gián đoạn cung cấp dịch vụ, đồng thời áp dụng phương án giải trợ.\n  + Bước 3: Thông báo ngay sau khi kết thúc sự cố cho cá nhân, đơn vị liên quan về việc dịch vụ được khôi phục bình thường.\n  + Bước 4: Ghi chép đầy đủ vào Sổ nhật ký giao ca trực.\n  *Ghi chú:* Thực hiện báo cáo bằng văn bản khi có yêu cầu, kèm theo FPL, điện văn không lưu, điện văn NOTAM/SNOWTAM, điện văn sự vụ hoặc sản phẩm đã cung cấp."
+},
+{
+  "id": "essay-866",
+  "q": "Anh/chị hãy cho biết báo cáo hạ cánh phải bao gồm những nội dung gì?",
+  "type": "essay",
+  "answer": "Theo Mục 10.5, Phụ lục 1 – TT19/2017/BGTVT, báo cáo hạ cánh phải bao gồm các nội dung sau:\n a) Số hiệu chuyến bay hoặc dấu hiệu nhận biết tàu bay;\n b) Sân bay khởi hành;\n c) Sân bay dự định đến (trong trường hợp hạ cánh xuống sân bay dự bị);\n d) Sân bay thực tế đến;\n e) Giờ hạ cánh."
+},
+{
+  "id": "essay-867",
+  "q": "Anh/chị hãy cho biết Quy trình xử lý các tình huống bất thường đối với tàu bay hạ cánh đột xuất?",
+  "type": "essay",
+  "answer": "Theo mục 5.2.3 TL HDKT Cơ sở ARO/AIS Cam Ranh:\n- Khi nhận được thông tin về chuyến bay sẽ hạ cánh đột xuất xuống sân bay Cam Ranh, nhân viên cơ sở ARO có nhiệm vụ:\n  + Ghi lại tên người thông báo, nội dung thông báo và giờ nhận vào Sổ nhật ký giao ca trực;\n  + Xác nhận các thông tin liên quan đến chuyến bay hạ cánh gồm: Loại tàu bay, số hiệu chuyến bay, đường bay; Nguyên nhân hạ cánh khẩn cấp; Thời gian tổ lái xin hạ cánh; Thời gian dự kiến hạ cánh (ETA);\n  + Thông báo tất cả các nội dung trên cho cán bộ trực giám sát;\n- Sau khi tàu hạ cánh, phát điện văn hạ cánh (ARR) qua AFTN/AMHS/AIS đến tất cả các địa chỉ có liên quan đến chuyến bay theo mẫu: (ARR-VJC447-VVNB1100-VVTTS-VVCR1328).\n  Trong đó:\n   * 11h00: Giờ EOBT hoặc giờ thực tế khởi hành đối với chuyến bay nộp KHB trước khi bay hoặc là giờ dự kiến/giờ dự kiến qua điểm đầu tiên của đường bay trong trường 15 điện văn FPL đối với KHB nhận được từ chuyến bay đang bay;\n   * 13h28: Giờ hạ cánh thực tế tại sân bay divert;\n- Thường xuyên theo dõi chuyến bay và ghi toàn bộ sự việc vào Sổ nhật ký giao ca trực."
+},
+{
+  "id": "essay-868",
+  "q": "Anh/chị hãy nêu biện pháp xử lý khi nhận được tin tức tàu bay bị can thiệp bất hợp pháp?",
+  "type": "essay",
+  "answer": "Theo mục 5.2.3 TL HDKT cơ sở ARO/AIS Cam Ranh:\n- Khi nhận thông tin về tàu bay bị can thiệp bất hợp pháp, nhân viên ARO phải xác nhận nguồn thông tin, báo cáo cán bộ trực giám sát;\n- Nắm bắt kịp thời thông tin về tàu bay bị can thiệp bất hợp pháp để phối hợp với các đơn vị liên quan thực hiện các nội dung theo yêu cầu của cơ quan có thẩm quyền (nếu được yêu cầu);\n- Ghi đầy đủ nội dung liên quan vào Sổ Nhật ký giao ca trực."
+},
+{
+  "id": "essay-869",
+  "q": "Anh/chị hãy nêu biện pháp xử lý khi nhận được tin tức tàu bay bị mất liên lạc?",
+  "type": "essay",
+  "answer": "Tàu bay mất liên lạc:\n- Khi nhận thông tin về tàu bay bị mất liên lạc không địa từ cơ sở ATS liên quan, nhân viên ARO báo cáo cán bộ trực giám sát;\n- Nắm bắt kịp thời thông tin về tàu bay bị mất liên lạc để phối hợp với các đơn vị liên quan thực hiện các nội dung theo yêu cầu của cơ quan có thẩm quyền (nếu được yêu cầu);\n- Ghi đầy đủ nội dung liên quan vào Sổ nhật ký giao ca trực."
+},
+{
+  "id": "essay-871",
+  "q": "Anh/chị hãy cho biết quy định về nộp kế hoạch bay không lưu?",
+  "type": "essay",
+  "answer": "Theo Phụ lục 1 - TT 19/2017/TT-BGTVT, TT 32/2021/TT-BGTVT:\n1) Người làm thủ tục bay phải nộp số liệu liên quan đến một chuyến bay hoặc một phần của chuyến bay dự định tới cơ sở ATS liên quan.\n2) Kế hoạch bay không lưu phải được nộp trước khi thực hiện:\n   a) Chuyến bay muốn được cung cấp dịch vụ không lưu (cho toàn bộ chuyến bay hay một phần chuyến bay);\n   b) Chuyến bay bay vào, bay trong hoặc bay dọc theo các vùng hoặc đường bay được Cục Hàng không Việt Nam quy định là khi bay tại đó phải nộp kế hoạch bay không lưu để thuận tiện cho việc cung cấp dịch vụ thông báo bay, báo động và tìm kiếm, cứu nạn;\n   c) Chuyến bay bay vào, bay trong hoặc bay dọc theo các vùng hay đường bay được Cục Hàng không Việt Nam quy định là khi bay tại đó phải nộp kế hoạch bay không lưu để tiến hành hiệp đồng với các đơn vị liên quan thuộc Bộ Quốc phòng hoặc với các cơ sở ATS của quốc gia kế cận nhằm tránh khả năng phải sử dụng bay chặn để nhận dạng;\n   d) Chuyến bay bay qua biên giới quốc gia.\n3) Nộp kế hoạch bay không lưu cho phòng thủ tục bay trước khi thực hiện chuyến bay hoặc nếu đang bay, phải liên lạc báo cáo kế hoạch bay cho cơ sở ATS có liên quan, trừ trường hợp đã được chấp thuận một kế hoạch bay lặp lại.\n4) Nộp kế hoạch bay không lưu chậm nhất là 60 phút trước khi bắt đầu thực hiện chuyến bay muốn được cung cấp dịch vụ không lưu. Nếu thời gian từ khi hạ cánh đến khi dự kiến cất cánh tại cảng hàng không không đủ, phải đảm bảo phòng thủ tục bay nhận và phát kế hoạch bay không lưu tới các địa chỉ theo quy định. Nếu tàu bay đang bay, phải đảm bảo cơ sở ATS nhận được báo cáo kế hoạch bay chậm nhất là 10 phút trước khi tàu bay dự định tới điểm vào vùng trời kiểm soát hoặc điểm bay qua đường hàng không.\n5) Người khai thác tàu bay thực hiện phương thức nộp kế hoạch bay từ xa khi đáp ứng các điều kiện về hạ tầng cơ sở, hệ thống thiết bị, phần mềm tạo và xử lý kế hoạch bay không lưu, đảm bảo nhân lực và huấn luyện, tài liệu hướng dẫn khai thác, địa chỉ liên lạc và bảo mật thông tin cho các chuyến bay dân dụng cất cánh từ các cảng hàng không tại Việt Nam. Việc nộp kế hoạch bay từ xa thực hiện theo phương thức làm thủ tục bay từ xa, phù hợp với điều kiện khai thác thực tế của các hãng hàng không Việt Nam nhằm đảm bảo an toàn và hiệu quả hoạt động bay."
+},
+{
+  "id": "essay-872",
+  "q": "Anh/chị hãy nêu phương thức ứng phó Không lưu cho cơ sở ARO Cam Ranh trong trường hợp ứng phó dài hạn quy định trong TLHDKT?",
+  "type": "essay",
+  "answer": "Theo Mục 4.5.4 – TLHDKT Cơ sở ARO/AIS Cam Ranh:\n* Ứng phó dài hạn:\n- Triển khai lực lượng và trang thiết bị kỹ thuật tại vị trí ứng phó.\n- Kíp trực ứng phó chịu trách nhiệm thông báo cho các cơ quan, đơn vị liên quan qua các phương tiện liên lạc sẵn có; triển khai thực hiện kế hoạch ứng phó dài hạn.\n- Trước khi thực hiện kế hoạch: Tiến hành liên lạc với các cơ sở ATS khác cho 01 chuyến bay; sau đó kiểm tra, đánh giá và triển khai thực hiện.\n- Thực hiện kế hoạch: Sau khi thử nghiệm thành công, cung cấp dịch vụ không lưu theo Kế hoạch ứng phó."
+},
+{
+  "id": "essay-873",
+  "q": "Anh/chị hãy cho biết cách điền tại trường 13 của kế hoạch bay không lưu (sân bay cất cánh và thời gian)?",
+  "type": "essay",
+  "answer": "Theo DOC 4444 và Quyết định số 415/QĐ-CHK ngày 15/3/2018:\n- Điền code 04 chữ của ICAO (theo Doc.7910). Trường hợp sân bay đó chưa được ICAO chỉ định code 4 chữ thì điền ZZZZ và chỉ rõ tên và vị trí sân bay sau DEP/... tại Mục 18; điền điểm đầu tiên của đường bay hoặc đài phụ trợ dẫn đường sau DEP/... nếu tàu bay không cất cánh từ sân bay hoặc nếu FPL nhận được từ tàu bay đang bay.\n- Điền AFIL (FPL filed in the air) và chỉ rõ chỉ danh trong Mục 18 cơ quan ATS theo code 04 chữ của ICAO, từ khi nhận được FPL bổ sung, bắt đầu bằng chữ DEP/ và điền không có khoảng cách.\n- Điền giờ dự kiến rời vị trí đỗ (EOBT) đối với chuyến bay nộp kế hoạch bay trước khi bay.\n- Đối với kế hoạch bay nhận được từ chuyến bay đang bay, điền giờ thực tế hoặc giờ dự kiến qua điểm đầu tiên trên đường bay được ghi trong kế hoạch bay."
+},
+{
+  "id": "essay-874",
+  "q": "Anh/chị hãy cho biết hiệu lực của phép bay?",
+  "type": "essay",
+  "answer": "Theo Nghị định 125/NĐ-CP:\n- Thời gian thực hiện của từng chuyến bay được xác định theo nội dung phép bay đã cấp.\n- Phép bay cho chuyến bay cất, hạ cánh tại cảng hàng không, sân bay Việt Nam có giá trị hiệu lực từ 12 giờ trước giờ dự kiến ghi trong phép bay đến 24 giờ sau giờ dự kiến cất, hạ cánh ghi trong phép bay.\n- Phép bay cho chuyến bay qua vùng trời Việt Nam có giá trị hiệu lực từ 3 giờ trước giờ dự kiến ghi trong phép bay đến 72 giờ sau giờ dự kiến ghi trong phép bay.\n- Giá trị hiệu lực của phép bay bao gồm cả phép bay cho chuyến bay từ sân bay dự bị đi sân bay đến hoặc sân bay khởi hành."
+},
+{
+  "id": "essay-875",
+  "q": "Anh/chị hãy cho biết một phép bay bao gồm những nội dung gì?",
+  "type": "essay",
+  "answer": "Theo Nghị định 125/NĐ-CP, một phép bay bao gồm các nội dung:\n- Tên, địa chỉ của người được cấp phép bay; tên, địa chỉ của người khai thác tàu bay;\n- Số phép bay được cấp;\n- Kiểu loại tàu bay, số hiệu chuyến bay, số hiệu đăng ký và quốc tịch của tàu bay;\n- Hành trình bay;\n- Đường hàng không; điểm bay vào, bay ra vùng trời Việt Nam;\n- Thời gian dự kiến cất, hạ cánh hoặc thời gian dự kiến bay qua các điểm bay ra, bay vào vùng trời Việt Nam (thời gian được tính là 24 giờ trong ngày và là giờ quốc tế UTC);\n- Mục đích của chuyến bay;\n- Giá trị thời gian thực hiện của phép bay;\n- Chỉ định cơ sở cung cấp dịch vụ bảo đảm hoạt động bay (nếu cần thiết);\n- Các quy định khác của phép bay."
+},
+{
+  "id": "essay-876",
+  "q": "Anh/chị hãy diễn giải kế hoạch bay không lưu sau:\n\n(FPL-HVN1552-IS\n-A321/M-SDFGHIRWYZ/EB1\n-VVCR0535\n-N0463F350 NIHOA1A NIHOA W2 BIGBO Q2 BISON BISON1G\n-VVNB0137 VVCI\n-PBN/A1B1C1D1L1O1S2 NAV/RNP2 DOF/240526 REG/VNA613 EET/VVHN0031 SEL/LRBP CODE/8880ED PER/C RMK/TCAS EQUIPPED)",
+  "type": "essay",
+  "answer": "Loại điện văn: FPL - Kế hoạch bay không lưu.\n- Trường 7: Số hiệu chuyến bay (HVN1552);\n- Trường 8: Quy tắc bay: (I) Bằng thiết bị; Loại chuyến bay: (S) Bay thường lệ.\n- Trường 9: Loại tàu bay: A321; Độ nhiễu động: (M) Loại trung bình.\n- Trường 10: Thiết bị (S) có đủ các thiết bị thông tin vô tuyến, dẫn đường và thiết bị phù trợ tiếp cận hạ cánh, (D) thiết bị đo cự ly, (F) thiết bị định hướng tự động ADS, (G) thiết bị GNSS, (H) HF RTF liên lạc thoại HF, (I) thiết bị dẫn đường quán tính, (R) loại RNP, (W) tàu bay bay được trong điều kiện RVSM, (Y) khả năng phân cách kênh VHF 8.33KHz, (Z) thiết bị khác được trang bị/khả năng khác của tàu bay.\n- Trường 13: (VVCR0535) Giờ dự kiến rút chèn từ Sân bay Cam Ranh lúc 05h35 UTC.\n- Trường 15: (N0463) tốc độ bay bằng 463 knots; (F350) mực bay bằng 350; (NIHOA1A) phương thức khởi hành NIHOA1A; đến điểm NIHOA; theo đường HK W2 đến điểm BIGBO; theo đường HK Q2 đến điểm BISON, sau đó tiếp cận hạ cánh theo phương thức BISON1G.\n- Trường 16: (VVNB0137) sân bay hạ cánh Nội Bài với tổng thời gian bay dự tính là 01 giờ 37 phút; (VVCI) sân bay dự bị Cát Bi.\n- Trường 18: (PBN/A1B1C1D1L1O1S2) được trang bị các thiết bị dẫn đường theo tính năng RNAV10, RNP10, RNAV5 với tất cả bộ cảm biến được phép, RNAV2 với tất cả bộ cảm biến được phép, RNAV1 với tất cả bộ cảm biến được phép, RNP4, RNP cơ bản kiểu loại 1 với tất cả bộ cảm biến được phép, RNP APCH with BARO-VNAV; (NAV/RNP2) sử dụng dẫn đường RNP2; (DOF/240526) ngày thực hiện chuyến bay là 26/5/2024; (REG/VNA613) đăng bạ tàu bay là VNA613; (EET/VVHN0031) tổng thời gian dự tính bay đến FIR Hà Nội là 31 phút; (SEL/LRBP) mã SELCAL là LRBP; (CODE/8880ED) mã code tàu bay là 8880ED; (PER/C) có trang bị radar giám sát thứ cấp Mode C; (RMK/TCAS EQUIPPED) có thiết bị cảnh báo chống va chạm."
+},
+{
+  "id": "essay-877",
+  "q": "Anh/chị hãy kể tên các sân bay làm dự bị cho cất cánh đối với sân bay Cam Ranh?",
+  "type": "essay",
+  "answer": "Theo AIP Việt Nam:\n- Các sân bay dự bị cất cánh đối với sân bay Cam Ranh: Tân Sơn Nhất, Đà Nẵng, Nội Bài và những sân bay thích hợp khác.\n- Khi không chọn được sân bay dự bị cho cất cánh, tiêu chuẩn khai thác tối thiểu cho cất cánh được áp dụng theo tiêu chuẩn tối thiểu cho hạ cánh."
+},
+{
+  "id": "essay-878",
+  "q": "Anh/chị hãy nêu sự khác biệt giữa đường bay quốc tế và đường bay nội địa?",
+  "type": "essay",
+  "answer": "Theo Nghị định 125/2015/NĐ-CP:\n- Đường hàng không nội địa là đường hàng không nằm hoàn toàn trong vùng trời Việt Nam. Đường hàng không nội địa được ký hiệu bằng các chữ H, J, Q, T, V, Y, Z, W và đánh số thứ tự bằng chữ số Ả Rập.\n- Đường hàng không quốc tế là đường hàng không nằm trong mạng lưới đường hàng không quốc tế của khu vực Châu Á - Thái Bình Dương, có ít nhất một điểm nằm ngoài vùng thông báo bay của Việt Nam và một điểm nằm trong vùng trời Việt Nam hoặc trong phần vùng thông báo bay trên biển quốc tế do Việt Nam quản lý. Đường hàng không quốc tế được ký hiệu bằng các chữ A, B, G, L, M, N, P, R và đánh số thứ tự bằng chữ số Ả Rập."
+},
+{
+  "id": "essay-879",
+  "q": "Anh/chị hãy nêu Quy định về phối hợp xử lý khi có hỏng hóc, trục trặc kỹ thuật tại Cơ sở ARO/AIS Cam Ranh?",
+  "type": "essay",
+  "answer": "Theo TLHDKT – Chương III, mục 3.10:\n- Khi sự cố kỹ thuật xảy ra, nhân viên cơ sở ARO/AIS lập tức gọi điện thoại theo các số máy sau cho nhân viên trực kỹ thuật của Phòng Bảo đảm kỹ thuật - TTTBTTHK để thông báo về hiện trạng sự cố: Số máy lẻ 8527 hoặc số cố định 024.38720813 (liên lạc 24/7).\n- Nhân viên trực kỹ thuật hướng dẫn xử lý khắc phục sự cố qua điện thoại. Nếu không xử lý được, nhân viên trực kỹ thuật có trách nhiệm thông báo cho đơn vị thực hiện dịch vụ bảo đảm kỹ thuật để cử nhân viên kỹ thuật tới hiện trường xác nhận và thực hiện xử lý tại chỗ."
+},
+{
+  "id": "essay-880",
+  "q": "Anh/chị hãy cho biết độ cao chuyển tiếp và mức bay chuyển tiếp tại sân bay nơi anh/chị đang công tác và mô tả vùng trời kiểm soát tại sân bay Cam Ranh?",
+  "type": "essay",
+  "answer": "Theo Quy chế sân bay Cam Ranh; AIP Việt Nam:\n- Độ cao chuyển tiếp và mức bay chuyển tiếp tại sân bay Cam Ranh:\n  + Độ cao chuyển tiếp: 2750m (tính theo khí áp tại sân so với mực nước biển trung bình QNH).\n  + Mức bay chuyển tiếp: FL100 (tính theo khí áp tiêu chuẩn 1013,25 hPa hay 760mmHg).\n\n* Mô tả Vùng trời kiểm soát tại sân bay Cam Ranh (theo mục 2.17 AIP Việt Nam):\n1. Tên và giới hạn ngang: Khu vực kiểm soát tại sân bay Cam Ranh được giới hạn như sau: Một vòng tròn với bán kính 8 NM (15KM), tâm là điểm quy chiếu sân bay (115944N - 1091306E) - trừ khu vực trách nhiệm của vị trí GCU.\n2. Giới hạn cao: Từ mặt đất/nước đến và bao gồm độ cao 750M (2.500 FT AMSL).\n3. Phân loại vùng trời: D.\n4. Tên gọi cơ sở cung cấp dịch vụ không lưu: Đài kiểm soát tại sân bay Cam Ranh. \n   Ngôn ngữ: Tiếng Anh, Tiếng Việt.\n5. Độ cao chuyển tiếp: 2750M.\n6. Giờ áp dụng (hoặc giờ hoạt động): H24.\n7. Ghi chú: Không."
+},
+{
+  "id": "essay-881",
+  "q": "Anh/chị hãy cho biết hệ thống đài phụ trợ vô tuyến dẫn đường và hạ cánh nơi sân bay anh/chị đang công tác?",
+  "type": "essay",
+  "answer": "Theo AIP Việt Nam VVCR AD 2.19, hệ thống đài phụ trợ vô tuyến dẫn đường và hạ cánh tại sân bay Cam Ranh bao gồm:\n\n1. DVOR/DME:\n- Tên gọi: CRA\n- Tần số: 116.500 MHz CH112X\n- Giờ hoạt động: H24\n- Vị trí: 115940N 1091312E\n- Tầm phủ: 320 KM\n\n2. NDB:\n- Tên gọi: CR\n- Tần số: 414 KHz\n- Giờ hoạt động: H24\n- Vị trí: 120001N 1091259E\n- Tầm phủ: 95 KM. Cách tim đường CHC 02L 1.635M, cách tim đường CHC 20R 1.413M\n\n3. ILS/GP-DME (Đường CHC 02L):\n- Tên gọi: ICR\n- Tần số: 330.200 MHz CH44X\n- Giờ hoạt động: H24\n- Vị trí: 115913.2N 1091259.4E\n- Tầm phủ: 10 NM. Cách tim đường CHC 02L 105M, cách ngưỡng CHC 02L 270M\n\n4. ILS/LOC (Đường CHC 02L):\n- Tên gọi: ICR\n- Tần số: 110.700 MHz\n- Giờ hoạt động: H24\n- Vị trí: 120049.2N 1091328.9E\n- Tầm phủ: 25 NM. Cách ngưỡng CHC 20R 291M\n\n5. ILS/GP-DME (Đường CHC 20R):\n- Tên gọi: ICA\n- Tần số: 335.000 MHz CH40X\n- Giờ hoạt động: H24\n- Vị trí: 120016.5N 1091332.3E\n- Tầm phủ: 10 NM\n\n6. ILS/LOC (Đường CHC 20R):\n- Tên gọi: ICA\n- Tần số: 110.300 MHz\n- Giờ hoạt động: H24\n- Vị trí: 115844.9N 1091256.5E\n- Tầm phủ: 25 NM\n\n7. ILS/GP-DME (Đường CHC 02R):\n- Tên gọi: ICX\n- Tần số: 331.100 MHz CH56X\n- Giờ hoạt động: H24\n- Vị trí: 115900N 1091306.0E\n- Tầm phủ: 10 NM\n\n8. ILS/LOC (Đường CHC 02R):\n- Tên gọi: ICX\n- Tần số: 111.900 MHz\n- Giờ hoạt động: H24\n- Vị trí: 120036.7N 1091335.3E\n- Tầm phủ: 25 NM"
+},
+{
+  "id": "essay-882",
+  "q": "Anh/chị hãy liệt kê các phương thức Khởi hành RNP 1 sử dụng đường CHC 02L/R?",
+  "type": "essay",
+  "answer": "Theo AIP Việt Nam, các phương thức Khởi hành RNP1 sử dụng đường CHC 02L/R gồm:\n\n1. Đường hàng không Q15 - SID: FURAL 1A\n2. Đường hàng không W15 - SID: THAKA 1A\n3. Đường hàng không W27 - SID: PANLU 1A\n4. Đường hàng không W2  - SID: NIHOA 1A"
+},
+{
+  "id": "essay-883",
+  "q": "Anh/chị hãy giải thích nhóm sau “PBN/A1B1C1D1L1O1S2” trong kế hoạch bay không lưu?",
+  "type": "essay",
+  "answer": "Theo Doc 4444 và Quyết định số 415/QĐ-CHK ngày 15/3/2018:\n\n- A1: RNAV (RNP10) – Hệ thống dẫn đường khu vực kiểu loại 10\n- B1: RNAV 5 (all permitted sensors) – Hệ thống dẫn đường khu vực kiểu loại 5 với tất cả bộ cảm biến được phép\n- C1: RNAV 2 (all permitted sensors) – Hệ thống dẫn đường khu vực kiểu loại 2 với tất cả bộ cảm biến được phép\n- D1: RNAV 1 (all permitted sensors) – Hệ thống dẫn đường khu vực kiểu loại 1 với tất cả bộ cảm biến được phép\n- L1: RNP4 – Hệ thống dẫn đường theo yêu cầu kiểu loại 4\n- O1: Basic RNP 1 (all permitted sensors) – Hệ thống dẫn đường theo yêu cầu kiểu loại 1 với tất cả bộ cảm biến được phép\n- S2: RNP APCH with BARO-VNAV – Phương pháp tiếp cận bằng thiết bị vệ tinh có trợ giúp độ cao"
+}
+],
 'AIS': [
       {
         "id": "essay-116",
@@ -12274,7 +12700,7 @@ function loadQuestions() {
     const activeTab = document.querySelector('.tab.active').dataset.tab;
 
     if (activeTab === 'test') {
-        if (selectedDomain === 'ESSAY' || selectedDomain === 'AIS') {
+        if (["ESSAY","AIS","CR_AIS_092025","CR_ARO_092025"].includes(selectedDomain)) {
             activeQuestions = shuffleArray(activeQuestions).slice(0, ESSAY_QUESTION_COUNT);
         } else {
             activeQuestions = shuffleArray(activeQuestions).slice(0, TEST_QUESTION_COUNT);
@@ -12308,7 +12734,7 @@ function loadQuestions() {
 function submitTest() {
     clearInterval(timerInterval);
     let correctCount = 0;
-    let isEssayDomain = (selectedDomain === 'ESSAY' || selectedDomain === 'AIS');
+    let isEssayDomain = ["ESSAY", "AIS", "CR_AIS_092025", "CR_ARO_092025"].includes(selectedDomain);
 
     activeQuestions.forEach(qObj => {
         const userAnswer = userAnswers[qObj.id];
@@ -12454,8 +12880,6 @@ function submitTest() {
     </script>
 </body>
 </html>
-
-
 
 
 
