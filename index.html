@@ -12767,7 +12767,7 @@ function submitTest() {
                 correctCount++;
             } else if (userAnswer === undefined) {
                 // ❌ chưa chọn
-                qDiv.classList.add('unanswered');
+                qDiv.querySelector('h4').style.color = 'orange';
             }
 
             if (qObj.explanation) {
@@ -12880,6 +12880,7 @@ function submitTest() {
     </script>
 </body>
 </html>
+
 
 
 
